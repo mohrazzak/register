@@ -4,7 +4,7 @@
 	import PageHeading from '../../_components/page-heading.svelte';
 	import JumpingText from '../../_components/jumping-text.svelte';
 	import SelectableBoxes from '../../_components/selectable-boxes.svelte';
-	import Footer from '../../_components/footer.svelte';
+	import Footer from '../../_components/footer/footer.svelte';
 
 	let { data } = $props();
 

@@ -7,7 +7,7 @@
 	import MaterialSymbolsStar from '~icons/material-symbols/star';
 	import * as Dialog from '$lib/components/ui/dialog/index.js';
 	import Separator from '$lib/components/ui/separator/separator.svelte';
-	import Footer from '../../../_components/footer.svelte';
+	import Footer from '../../../_components/footer/footer.svelte';
 
 	interface SubjectGroup {
 		subject: string;
@@ -19,7 +19,7 @@
 	const { institute, level, teachers, workingPlans, test } = data;
 
 	const autoplayPlugin = Autoplay({
-		delay: 50000,
+		delay: 2000,
 		stopOnInteraction: false,
 		playOnInit: true,
 		stopOnMouseEnter: true
