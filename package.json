@@ -16,6 +16,7 @@
 		"@eslint/compat": "^1.2.3",
 		"@iconify-json/material-symbols": "^1.2.10",
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-netlify": "^4.4.0",
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/adapter-vercel": "^5.5.2",
 		"@sveltejs/enhanced-img": "^0.4.4",
