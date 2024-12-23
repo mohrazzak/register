@@ -28,7 +28,7 @@
 </script>
 
 <div class="container my-8">
-	<Separator class="bg-secondary" />
+	<Separator class="m-auto max-w-md bg-secondary" />
 
 	{#each items as item}
 		<Item text={item.text} title={item.title} Icon={item.Icon} isLink={item.isLink} />

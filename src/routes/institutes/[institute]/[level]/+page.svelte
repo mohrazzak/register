@@ -19,7 +19,14 @@
 	const { institute, level, teachers, workingPlans, test } = data;
 
 	const autoplayPlugin = Autoplay({
-		delay: 2000,
+		delay: 1600,
+		stopOnInteraction: false,
+		playOnInit: true,
+		stopOnMouseEnter: true
+	});
+
+	const autoplayPlugin2 = Autoplay({
+		delay: 2800,
 		stopOnInteraction: false,
 		playOnInit: true,
 		stopOnMouseEnter: true
@@ -54,7 +61,7 @@
 	<div class="my-4">
 		<Carousel.Root
 			plugins={[autoplayPlugin]}
-			class="mx-auto w-full animate-fade justify-center shadow-xl animate-duration-1000 animate-once"
+			class="mx-auto w-full animate-fade rounded-lg shadow-xl animate-duration-1000 animate-once"
 			onmouseenter={autoplayPlugin.stop}
 			onmouseleave={autoplayPlugin.reset}
 			opts={{ loop: true, direction: 'rtl' }}
@@ -62,7 +69,7 @@
 			<Carousel.Content>
 				{#each institute.images as e}
 					<Carousel.Item>
-						<enhanced:img src={e} alt="ias" loading="lazy" class="w-full" />
+						<enhanced:img src={e} alt={'slider of school'} loading="lazy" class="w-full" />
 					</Carousel.Item>
 				{/each}
 			</Carousel.Content>
@@ -96,7 +103,7 @@
 
 		<div class="my-4 py-4">
 			<Carousel.Root
-				plugins={[autoplayPlugin]}
+				plugins={[autoplayPlugin2]}
 				class="mx-auto w-full animate-fade rounded-lg shadow-xl animate-duration-1000 animate-once"
 				onmouseenter={autoplayPlugin.stop}
 				onmouseleave={autoplayPlugin.reset}
