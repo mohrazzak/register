@@ -1,5 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
-import { enhancedImages } from '@sveltejs/enhanced-img';
+import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
