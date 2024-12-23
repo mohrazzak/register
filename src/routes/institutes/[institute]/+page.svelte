@@ -4,6 +4,7 @@
 	import PageHeading from '../../_components/page-heading.svelte';
 	import JumpingText from '../../_components/jumping-text.svelte';
 	import SelectableBoxes from '../../_components/selectable-boxes.svelte';
+	import Footer from '../../_components/footer.svelte';
 
 	let { data } = $props();
 
@@ -55,3 +56,33 @@
 <div class="container mb-5">
 	<SelectableBoxes boxes={pageData.boxes} />
 </div>
+
+<!-- <div class="container my-10">
+	<PageHeading
+		heading="تواصل معنا"
+		subheading="موجودون دوما لمساعدتك"
+		img={undefined}
+		alt={undefined}
+	/>
+
+	<div class="my-6 py-2 text-justify text-gray-300">
+		<p>للتواصل مع قسم الإستقبال:</p>
+		<span class="px-2">
+			<a href="tel://0989557701" class="underline">0989557701</a>
+		</span>
+
+		<p class="mt-4">للتواصل مع قسم المحاسبة:</p>
+		<span class="px-2">
+			<a href="tel://0989557701" class="underline">0989557738</a>
+		</span>
+
+		<p class="mt-4">العنوان:</p>
+		<span> حلب - الشهباء الجديدة - جانب دوار الغزالي</span>
+	</div>
+</div> -->
+
+<Footer
+	reception={pageData.reception}
+	accounting={pageData.accounting}
+	address={pageData.address}
+/>

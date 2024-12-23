@@ -17,6 +17,9 @@ interface Institutes {
   description: string;
   images: Picture[]
   boxes: Box[]
+  address: string;
+  reception: string;
+  accounting: string;
 }
 
 
@@ -30,6 +33,9 @@ export const institutes: Institutes[] = [{
   description: `
   تأسست مدارس النخبة التعليمية الرائدة في حلب عام 2013 بدأت من المرحلة الثانوية ثم الإعدادية ثم الابتدائية .وكان لها اثر مهم في رفد الجامعات السورية بأكبر عدد من الطلاب المتميزين والمتفوقين ... لكافة المراحل الدراسية ..من الروضة إلى الثالث الثانوي العلمي... تمتاز مدرستنا بإهتمامها الفائق بطلابها فرداً فرداً ..وبأساليبها التعليمية الإلمام بكل ما يتعلّق بالطالب من الحالة النفسية و التعليمية`,
   images: [a, a, a],
+  address: 'حلب - الشهباء الجديدة = جانب دوار الغزالي.',
+  reception: '0989557701',
+  accounting: '0989557738',
   boxes: [{
     heading: 'البكالوريا', href: '/institutes/school/baccalaureate', questions: [{
       question: 'مايميزنا؟',
@@ -81,8 +87,8 @@ export const institutes: Institutes[] = [{
 وذلك عن طريق زرع روح المنافسة والتنظيم والإصرار على بلوغ الهدف وجعل كلمة مستحيل ممكنا دائما ليكون طالبنا مميزا في مختلف المجالات .
   `,
   images: [a, a, a],
-  boxes: [{ heading: 'البكالوريا', href: '/institutes/awael-syriabaccalaureate' },
-  { heading: 'التاسع', href: '/institutes/awael-syrianinth' },
+  boxes: [{ heading: 'البكالوريا', href: '/institutes/awael-syria/baccalaureate' },
+  { heading: 'التاسع', href: '/institutes/awael-syria/ninth' },
   ]
 },
 {

@@ -32,6 +32,13 @@
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
+		<div style="display: contents">
+			<img
+				src="/src/lib/assets/images/pano.jpg"
+				alt="Hero background"
+				class="fixed left-0 top-0 -z-10 h-full w-full object-cover blur-sm brightness-[.3]"
+			/>
+			%sveltekit.body%
+		</div>
 	</body>
 </html>

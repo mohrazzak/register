@@ -1,10 +1,12 @@
 <script lang="ts">
 	import '../app.css';
 	import Header from './_components/header.svelte';
+	import bg from '$lib/assets/images/pano.jpg?enhanced';
 	let { children } = $props();
 </script>
 
+<!-- Main Content -->
 <Header />
-<main class="mx-auto mb-12 min-h-dvh max-w-xl text-xl">
+<main>
 	{@render children()}
 </main>

@@ -9,7 +9,7 @@
 		<div class="flex flex-wrap gap-5">
 			<a
 				href={box.href}
-				class="transition-allanimate-normal h-32 w-full animate-fade-down cursor-pointer rounded-xl bg-[#fadaff] p-8 shadow-lg animate-ease-in-out hover:translate-y-[-5px] hover:shadow-2xl"
+				class="transition-allanimate-normal h-32 w-full animate-fade-down cursor-pointer rounded-xl bg-[#d6c8d8] p-8 shadow-lg animate-ease-in-out hover:translate-y-[-5px] hover:shadow-2xl"
 				style="animation-delay: {i * 300}ms;"
 			>
 				{#if box.img}
