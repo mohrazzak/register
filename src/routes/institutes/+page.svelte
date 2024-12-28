@@ -1,16 +1,11 @@
 <script lang="ts">
-	import schools from '$lib/assets/images/family-logo.png?enhanced';
-	import awael from '$lib/assets/images/nukhbeh-awael.png?enhanced';
-	import inst from '$lib/assets/images/nukhbeh-inst.png?enhanced';
-	import shahba from '$lib/assets/images/nukhbeh-shahba.png?enhanced';
-	import shams from '$lib/assets/images/nukhbeh-shams.png?enhanced';
+	import schools from '$lib/assets/images/logos/family-logo.png?enhanced';
 	import { institutes } from '$lib/data';
-	import type { Box } from '$lib/interface/box.interface';
 	import JumpingText from '../_components/jumping-text.svelte';
 	import PageHeading from '../_components/page-heading.svelte';
 	import SelectableBoxes from '../_components/selectable-boxes.svelte';
 
-	const newBoxes: Box[] = institutes
+	const newBoxes = institutes
 		.filter((l) => l.slug !== '/institutes/school')
 		.map((l) => ({
 			delay: 0,

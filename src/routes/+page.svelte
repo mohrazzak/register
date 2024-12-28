@@ -1,5 +1,5 @@
 <script lang="ts">
-	import schools from '$lib/assets/images/nukhbeh-schools.png?enhanced';
+	import schools from '$lib/assets/images/logos/nukhbeh-schools.png?enhanced';
 	import type { Box } from '$lib/interface/box.interface';
 	import JumpingText from './_components/jumping-text.svelte';
 	import PageHeading from './_components/page-heading.svelte';
