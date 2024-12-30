@@ -1,3 +1,8 @@
+<script>
+	import { goto } from '$app/navigation';
+	import Button from '$lib/components/ui/button/button.svelte';
+</script>
+
 <div class="grid h-screen place-content-center bg-white px-4 dark:bg-gray-900">
 	<div class="text-center">
 		<svg
@@ -38,5 +43,7 @@
 		<p class="mt-4 text-gray-500 dark:text-gray-400">
 			يرجى التواصل مع المسؤول التقني لمعالجة المشكلة.
 		</p>
+
+		<Button onclick={() => goto('/')} class="text-md mt-4" size="lg">العودة للصفحة الرئيسية</Button>
 	</div>
 </div>
