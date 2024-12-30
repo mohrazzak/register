@@ -7,9 +7,10 @@ export default defineConfig({
 	plugins: [enhancedImages(), sveltekit(), Icons({
 		compiler: 'svelte',
 		autoInstall: true
-	}),], server: {
-		host: '0.0.0.0',  // Bind to all network interfaces
-		port: 5173,       // Use port 5173
-		strictPort: true, // Ensure it uses the specified port
-	},
+	}),],
+	// server: {
+	// 	host: '0.0.0.0',  // Bind to all network interfaces
+	// 	port: 5173,       // Use port 5173
+	// 	strictPort: true, // Ensure it uses the specified port
+	// },
 });

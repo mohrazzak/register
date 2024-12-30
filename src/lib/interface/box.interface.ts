@@ -1,3 +1,4 @@
+import type { Subject } from '$lib/data/teachers';
 import type { Picture } from './picture.interface';
 
 
@@ -5,7 +6,7 @@ import type { Picture } from './picture.interface';
 interface Teacher {
   img: Picture;
   name: string;
-  subject: string;
+  subject: Subject;
 }
 
 export interface WorkingPlan {

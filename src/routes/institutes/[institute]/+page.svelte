@@ -27,7 +27,7 @@
 	/>
 
 	<p
-		class="animate-fade-left whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200 animate-once"
+		class="animate-fade-left animate-once whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200"
 	>
 		{institute?.description}
 	</p>
@@ -35,7 +35,7 @@
 	<div class="my-3 py-3">
 		<Carousel.Root
 			plugins={[plugin]}
-			class="mx-auto w-full animate-fade shadow-xl animate-duration-1000 animate-once"
+			class="animate-fade animate-duration-1000 animate-once mx-auto w-full shadow-xl"
 			onmouseenter={plugin.stop}
 			onmouseleave={plugin.reset}
 			opts={{ loop: true, direction: 'rtl' }}

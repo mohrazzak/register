@@ -12,7 +12,6 @@ export const load: PageLoad = ({ params, url }) => {
   const level = institute.boxes.find(b => b.href === url.pathname)
   if (!level) throw new Error()
 
-
   return {
     institute,
     level,
