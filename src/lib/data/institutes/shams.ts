@@ -1,6 +1,6 @@
 import shams from '$lib/assets/images/logos/nukhbeh-shams.png?enhanced';
 
-import shams1 from '$lib/assets/images/inistitutes/shams/outer.jpg?enhanced'
+import shams1 from '$lib/assets/images/institutes/shams/outer.jpg?enhanced'
 import { bacTest, bacWorkingPlan, ninthTest, ninthWorkingPlan } from './shared';
 import { teachersData } from '../teachers';
 

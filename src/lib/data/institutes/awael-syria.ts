@@ -1,4 +1,4 @@
-import awael1 from '$lib/assets/images/inistitutes/awael-syria/outer.jpg?enhanced'
+import awael1 from '$lib/assets/images/institutes/awael-syria/outer.jpg?enhanced'
 import awael from '$lib/assets/images/logos/nukhbeh-awael.png?enhanced';
 import { teachersData } from '../teachers';
 import { bacTest, bacWorkingPlan, ninthTest, ninthWorkingPlan } from './shared';

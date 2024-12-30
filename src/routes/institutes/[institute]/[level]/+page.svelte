@@ -55,7 +55,7 @@
 	/>
 
 	<p
-		class="animate-fade-left animate-once mt-4 whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200"
+		class="animate-fade-left animate-once my-4 whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200"
 	>
 		{level.description}
 	</p>
@@ -82,6 +82,25 @@
 			</Carousel.Content>
 		</Carousel.Root>
 	</div>
+
+	{#if level.test}
+		<div class="mb-4 mt-8">
+			<div
+				class="text-primary my-2 flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold shadow-lg"
+			>
+				<MaterialSymbolsEditDocumentOutlineRounded />
+				<h3>السبر</h3>
+			</div>
+
+			<ul class="my-2 list-disc py-2 text-justify">
+				{#each level.test as t}
+					<li class="mb-3 text-base leading-loose text-gray-200" class:font-bold={t.bold}>
+						{@html t.text}
+					</li>
+				{/each}
+			</ul>
+		</div>
+	{/if}
 
 	{#if level.teachers?.length && subjects}
 		<div class="my-8 list-disc text-justify">
@@ -160,25 +179,6 @@
 					</Dialog.Header>
 				</Dialog.Content>
 			</Dialog.Root>
-		</div>
-	{/if}
-
-	{#if level.test}
-		<div class="mb-4 mt-8">
-			<div
-				class="text-primary my-2 flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold shadow-lg"
-			>
-				<MaterialSymbolsEditDocumentOutlineRounded />
-				<h3>السبر</h3>
-			</div>
-
-			<ul class="my-2 list-disc py-2 text-justify">
-				{#each level.test as t}
-					<li class="mb-3 text-base leading-loose text-gray-200" class:font-bold={t.bold}>
-						{@html t.text}
-					</li>
-				{/each}
-			</ul>
 		</div>
 	{/if}
 

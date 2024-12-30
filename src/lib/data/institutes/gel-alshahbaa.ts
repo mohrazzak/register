@@ -1,5 +1,5 @@
-import genAlshahba1 from '$lib/assets/images/inistitutes/gen-alshahba/outer.jpg?enhanced'
-import genAlshahba2 from '$lib/assets/images/inistitutes/gen-alshahba/registeration.jpg?enhanced'
+import genAlshahba1 from '$lib/assets/images/institutes/gen-alshahba/outer.jpg?enhanced'
+import genAlshahba2 from '$lib/assets/images/institutes/gen-alshahba/registeration.jpg?enhanced'
 import shahba from '$lib/assets/images/logos/nukhbeh-shahba.png?enhanced';
 import { teachersData } from '../teachers';
 import { bacTest, bacWorkingPlan } from './shared';

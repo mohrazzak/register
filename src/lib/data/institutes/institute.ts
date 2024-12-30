@@ -1,7 +1,7 @@
 import inistitute from '$lib/assets/images/logos/nukhbeh-inst.png?enhanced';
-import inistitute1 from '$lib/assets/images/inistitutes/institute/outer.jpg?enhanced'
-import inistitute2 from '$lib/assets/images/inistitutes/institute/inside.jpg?enhanced'
-import inistitute3 from '$lib/assets/images/inistitutes/institute/mktb.jpg?enhanced'
+import inistitute1 from '$lib/assets/images/institutes/institute/outer.jpg?enhanced'
+import inistitute2 from '$lib/assets/images/institutes/institute/inside.jpg?enhanced'
+import inistitute3 from '$lib/assets/images/institutes/institute/mktb.jpg?enhanced'
 import { bacTest, bacWorkingPlan } from './shared';
 import { teachersData } from '../teachers';
 
