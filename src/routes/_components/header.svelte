@@ -12,10 +12,10 @@
 	}
 </script>
 
-<div class=" container z-10 m-auto flex h-12 max-w-xl items-end justify-end px-2">
+<div class=" container z-10 m-auto flex h-16 max-w-xl items-center justify-end px-2">
 	<button type="button" class:hidden={$page.url.pathname === '/'} onclick={stepBack}>
 		<MaterialSymbolsArrowLeftAltRounded
-			class="h-8 w-8 rounded-full  bg-primary p-1 text-white hover:bg-secondary "
+			class="bg-primary hover:bg-secondary h-8  w-8 rounded-full p-1 text-white "
 		/>
 	</button>
 </div>
