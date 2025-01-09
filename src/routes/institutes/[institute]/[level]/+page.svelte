@@ -126,7 +126,7 @@
 									src={e.img}
 									alt="ias"
 									loading="lazy"
-									class="h-full max-h-full w-full rounded-lg object-cover"
+									class="h-full max-h-full w-full rounded-lg bg-gray-200 object-cover"
 								/>
 								<div
 									class="absolute bottom-0 left-0 flex h-24 w-full flex-wrap items-center justify-center rounded-sm bg-stone-800 bg-opacity-80 p-2 text-center text-2xl font-bold text-gray-50 shadow-lg"
