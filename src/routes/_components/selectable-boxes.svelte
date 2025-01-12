@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { navigating } from '$app/stores';
 	import type { Box } from '$lib/interface/box.interface';
 
 	let { boxes }: { boxes: Box[] } = $props();

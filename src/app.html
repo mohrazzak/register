@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<!-- تحسين SEO -->
-		<title>مدارس نخبة حلب الخاصة</title>
+		<title>اسرة النخبة التعليمية</title>
 		<meta
 			name="description"
 			content="مدارس نخبة حلب الخاصة تقدم معلومات شاملة عن التسجيل في جميع أقسام المدرسة والمعاهد التابعة لها. تعرف على متطلبات وإجراءات التسجيل بسهولة."
@@ -30,6 +30,18 @@
 		<meta property="og:type" content="website" />
 
 		%sveltekit.head%
+
+		<style>
+			.loader-overlay {
+				position: fixed;
+				inset: 0;
+				z-index: 50;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: rgba(0, 0, 0, 0.4);
+			}
+		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>

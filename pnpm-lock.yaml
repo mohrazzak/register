@@ -24,6 +24,9 @@ importers:
       '@iconify-json/material-symbols':
         specifier: ^1.2.10
         version: 1.2.10
+      '@iconify-json/svg-spinners':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
         version: 3.3.1(@sveltejs/kit@2.11.1(@sveltejs/vite-plugin-svelte@5.0.2(svelte@5.13.0)(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1)))(svelte@5.13.0)(vite@6.0.3(jiti@1.21.6)(yaml@2.6.1)))
@@ -355,6 +358,9 @@ packages:
 
   '@iconify-json/material-symbols@1.2.10':
     resolution: {integrity: sha512-GcZxhOFStM7Dk/oZvJSaW0tR/k6NwTq+KDzYgCNBDg52ktZuRa/gkjRiYooJm/8PAe9NBYxIx8XjS/wi4sasdQ==}
+
+  '@iconify-json/svg-spinners@1.2.2':
+    resolution: {integrity: sha512-DIErwfBWWzLfmAG2oQnbUOSqZhDxlXvr8941itMCrxQoMB0Hiv8Ww6Bln/zIgxwjDvSem2dKJtap+yKKwsB/2A==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2179,6 +2185,10 @@ snapshots:
   '@iarna/toml@2.2.5': {}
 
   '@iconify-json/material-symbols@1.2.10':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/svg-spinners@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 

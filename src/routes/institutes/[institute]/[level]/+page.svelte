@@ -55,7 +55,7 @@
 	/>
 
 	<p
-		class="animate-fade-left animate-once my-4 whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200"
+		class="my-4 animate-fade-left whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200 animate-once"
 	>
 		{level.description}
 	</p>
@@ -63,7 +63,7 @@
 	<div>
 		<Carousel.Root
 			plugins={[autoplayPlugin]}
-			class="animate-fade animate-duration-1000 animate-once mx-auto w-full rounded-lg shadow-xl"
+			class="mx-auto w-full animate-fade rounded-lg shadow-xl animate-duration-1000 animate-once"
 			onmouseenter={autoplayPlugin.stop}
 			onmouseleave={autoplayPlugin.reset}
 			opts={{ loop: true, direction: 'rtl' }}
@@ -86,7 +86,7 @@
 	{#if level.test}
 		<div class="mb-4 mt-8">
 			<div
-				class="text-primary my-2 flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold shadow-lg"
+				class="my-2 flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold text-primary shadow-lg"
 			>
 				<MaterialSymbolsEditDocumentOutlineRounded />
 				<h3>السبر</h3>
@@ -105,7 +105,7 @@
 	{#if level.teachers?.length && subjects}
 		<div class="my-8 list-disc text-justify">
 			<div
-				class="text-primary flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold shadow-lg"
+				class="flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold text-primary shadow-lg"
 			>
 				<MaterialSymbolsPersonCelebrateRounded />
 				<h3>اعضاء الهيئة التدريسية</h3>
@@ -114,7 +114,7 @@
 			<div class="my-4 py-4">
 				<Carousel.Root
 					plugins={[autoplayPlugin2]}
-					class="animate-fade animate-duration-1000 animate-once mx-auto w-full rounded-lg shadow-xl"
+					class="mx-auto w-full animate-fade rounded-lg shadow-xl animate-duration-1000 animate-once"
 					onmouseenter={autoplayPlugin.stop}
 					onmouseleave={autoplayPlugin.reset}
 					opts={{ loop: true, direction: 'rtl' }}
@@ -141,29 +141,32 @@
 			</div>
 
 			<Dialog.Root>
-				<Dialog.Trigger class="bg-secondary rounded-lg px-4 py-2 font-bold  text-gray-50"
+				<Dialog.Trigger class="rounded-lg bg-secondary px-4 py-2 font-bold  text-gray-50"
 					>عرض الكل</Dialog.Trigger
 				>
 				<Dialog.Content class="max-h-[80dvh] max-w-xl overflow-auto rounded-lg">
 					<Dialog.Header>
 						<Dialog.Title
-							class="animate-fade-down animate-once pb-2 text-center text-xl tracking-wide"
+							class="animate-fade-down pb-2 text-center text-xl tracking-wide animate-once"
 						>
 							<h3 class="mb-2">اعضاء الهيئة التدريسية</h3>
-							<div class="bg-primary rounded-sm px-2 py-2 font-bold text-gray-50">
+							<div class="rounded-sm bg-primary px-2 py-2 font-bold text-gray-50">
 								{institute.name} - {level.heading}
 							</div>
 						</Dialog.Title>
 						<Dialog.Description>
 							<ul>
 								{#each subjects as subject, i}
-									<li class="animate-fade-left animate-once" style="animation-delay: {i * 150}ms;">
+									<li
+										class="mb-3 animate-fade-left animate-once"
+										style="animation-delay: {i * 150}ms;"
+									>
 										<h5
 											class="rounded-sm bg-opacity-90 py-1 text-justify text-lg font-bold text-gray-800"
 										>
 											{subject.subject}
 										</h5>
-										<Separator class="bg-secondary mb-2 pb-[0.1rem]" />
+										<Separator class="mb-2 bg-secondary pb-[0.1rem]" />
 
 										<div class="flex flex-wrap gap-2">
 											{#if subject.teachers.length > 0}
@@ -184,7 +187,7 @@
 
 	<div class="mb-4 mt-8">
 		<div
-			class="text-primary flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold shadow-lg"
+			class="flex items-center justify-center gap-4 rounded-lg bg-[#f8d8ee] p-3 text-2xl font-bold text-primary shadow-lg"
 		>
 			<MaterialSymbolsStar />
 			<h3>خطة العمل</h3>
@@ -194,7 +197,7 @@
 			{#each level.workingPlans as wk}
 				<li class="py-2 text-base leading-loose tracking-wider text-gray-200">
 					{#if wk.title}
-						<div class="border-secondary mb-2 w-fit border-b-2 py-1 text-center font-extrabold">
+						<div class="mb-2 w-fit border-b-2 border-secondary py-1 text-center font-extrabold">
 							{wk.title}
 						</div>
 					{/if}

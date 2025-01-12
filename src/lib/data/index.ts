@@ -42,9 +42,9 @@ export interface Institute {
 
 
 export const institutes: Institute[] = [
-  schoolInstitute,
-  awaelSyriaInistitute,
   nukhbehInstitute,
   gelAlshahbaaInstitute,
-  shamsInstitute
+  schoolInstitute,
+  shamsInstitute,
+  awaelSyriaInistitute,
 ];

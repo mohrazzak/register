@@ -16,9 +16,9 @@
 
 {#if img}
 	<div
-		class="mx-auto mb-6 h-auto w-2/3 max-w-32 animate-fade-down animate-normal animate-ease-in-out"
+		class="mx-auto mb-6 h-auto w-2/3 max-w-48 animate-fade-down animate-normal animate-ease-in-out"
 	>
-		<enhanced:img loading="lazy" src={img} {alt} />
+		<enhanced:img src={img} {alt} />
 	</div>
 {/if}
 <section class="animate-fade text-center animate-normal animate-ease-in-out">

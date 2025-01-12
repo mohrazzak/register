@@ -24,7 +24,7 @@ export const shamsInstitute = {
     {
       heading: 'البكالوريا',
       href: '/institutes/shams/baccalaureate',
-      description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.', teachers: [teachersData.anasDrgham, teachersData.mohammadFarek, teachersData.mohammadTabbakh, teachersData.mohammadAmeenSeedo, teachersData.samerSleman, teachersData.mahmoudHreh, teachersData.kamelKadi, teachersData.othmanAlMohammad, teachersData.ramezAlSaeed, teachersData.hussamDwick, teachersData.basharGamalAldeen, teachersData.mohammadAlIssa, teachersData.ihabGamal],
+      description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.', teachers: [teachersData.anasDrgham, teachersData.mohammadFarek, teachersData.mohammadTabbakh, teachersData.mohammadAmeenSeedo, teachersData.samerSleman, teachersData.mahmoudHreh, teachersData.kamelKadi, teachersData.othmanAlMohammad, teachersData.ramezAlSaeed, teachersData.hussamDwick, teachersData.basharGamalAldeen, teachersData.ihabGamal],
       test: bacTest,
       imgs: [],
       workingPlans: bacWorkingPlan,
