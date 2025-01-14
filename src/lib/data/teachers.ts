@@ -23,7 +23,7 @@ import mohannadAshor from '$lib/assets/images/teachers/mohannadAshour.png?enhanc
 import unknownImg from '$lib/assets/images/teachers/unknown.jpg?enhanced';
 import type { Picture } from '$lib/interface/picture.interface';
 
-export type Subject = 'الرياضيات' | "الفيزياء" | "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "التربية الوطنية" | "العلوم" | "اجتماعيات";
+export type Subject = 'الرياضيات' | "الفيزياء" | "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "العلوم" | "ناريخ و جغرافيا";
 
 
 type TeacherNames =
@@ -51,8 +51,6 @@ type TeacherNames =
   | "ramezAlSaeed"
   | "sobhiSawwas"
   | "hasanNaasan"
-  // | "saeedAlHasan"
-  // | "mohammadAlIssa"
   | "ihabGamal"
   | "mohammadTabbakh"
   | "mohammadAmeenSeedo"
@@ -104,8 +102,6 @@ export const teachersData: TeachersData = {
   ramezAlSaeed: { img: ramezAlSaeed, subject: 'اللغة العربية', name: "رامز السعيد" },
   sobhiSawwas: { img: unknownImg, subject: 'اللغة العربية', name: "صبحي سواس" },
   hasanNaasan: { img: hasanNaasan, subject: 'اللغة الإنجليزية', name: "حسن نعسان" },
-  // saeedAlHasan: { img: saeedAlHasan, subject: 'التربية الوطنية', name: "سعيد الحسن" },
-  // mohammadAlIssa: { img: mohammadAlIssa, subject: 'التربية الوطنية', name: "محمد العيسى" },
   ihabGamal: { img: unknownImg, subject: 'التربية الدينية', name: "إيهاب جمال" },
   mohammadTabbakh: { img: mohammadTabbakh, subject: 'الفيزياء', name: "محمد طبّاخ" },
   mohammadAmeenSeedo: { img: unknownImg, subject: 'الفيزياء', name: "محمد أمين سيدو" },
@@ -118,7 +114,7 @@ export const teachersData: TeachersData = {
   salyKayyali: { img: unknownImg, subject: 'اللغة الإنجليزية', name: "سالي كيالي" },
   nihadSeno: { img: unknownImg, subject: 'اللغة الفرنسية', name: "نهاد سينو" },
   ammarKhdry: { img: unknownImg, subject: 'اللغة الفرنسية', name: "عمار خضري" },
-  adeebZohor: { img: adeebZohor, subject: 'اجتماعيات', name: "أديب زهور" },
+  adeebZohor: { img: adeebZohor, subject: 'ناريخ و جغرافيا', name: "أديب زهور" },
   waseemShayyah: { img: unknownImg, subject: 'الرياضيات', name: "وسيم شياح" },
   tariqSayedAli: { img: unknownImg, subject: 'اللغة الإنجليزية', name: "طارق السيد علي" },
   mohammadHilal: { img: unknownImg, subject: 'الفيزياء', name: "محمد هلال" },
@@ -127,6 +123,6 @@ export const teachersData: TeachersData = {
   ferasAlsayyedOmar: { img: unknownImg, subject: 'الرياضيات', name: "فراس السيد عمر" },
   safiKabbani: { img: unknownImg, subject: 'العلوم', name: "صافي قباني" },
   mjdNahlawy: { img: unknownImg, subject: 'اللغة الفرنسية', name: "مجد نحلاوي" },
-  mohammadNourAldeen: { img: unknownImg, subject: 'اجتماعيات', name: "محمد نور الدين" },
+  mohammadNourAldeen: { img: unknownImg, subject: 'ناريخ و جغرافيا', name: "محمد نور الدين" },
 };
 
