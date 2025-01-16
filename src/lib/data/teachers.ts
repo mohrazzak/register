@@ -23,7 +23,7 @@ import mohannadAshor from '$lib/assets/images/teachers/mohannadAshour.png?enhanc
 import unknownImg from '$lib/assets/images/teachers/unknown.jpg?enhanced';
 import type { Picture } from '$lib/interface/picture.interface';
 
-export type Subject = 'الرياضيات' | "الفيزياء" | "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "العلوم" | "ناريخ و جغرافيا";
+export type Subject = 'الرياضيات' | "الفيزياء" | "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "العلوم" | "ناريخ و جغرافيا" | "الفيزياء و الكيمياء";
 
 
 type TeacherNames =
@@ -72,7 +72,7 @@ type TeacherNames =
   | "ferasAlsayyedOmar"
   | "safiKabbani"
   | "mjdNahlawy"
-  | "mohammadNourAldeen";
+  | "mohammadNourAldeen" | "wajeehDwidry" | "ismaelSafaia" | "mustafaRslan";
 type TeachersData = {
   [key in TeacherNames]: { img: Picture, subject: Subject, name: string }
 }
@@ -106,7 +106,7 @@ export const teachersData: TeachersData = {
   mohammadTabbakh: { img: mohammadTabbakh, subject: 'الفيزياء', name: "محمد طبّاخ" },
   mohammadAmeenSeedo: { img: unknownImg, subject: 'الفيزياء', name: "محمد أمين سيدو" },
   adeebAlsayed: { img: unknownImg, subject: 'الرياضيات', name: "أديب السيد" },
-  mehdiBasteka: { img: unknownImg, subject: 'الفيزياء', name: "مهدي بصطيقة" },
+  mehdiBasteka: { img: unknownImg, subject: 'الفيزياء و الكيمياء', name: "مهدي بصطيقة" },
   saleemKaroub: { img: unknownImg, subject: 'العلوم', name: "سليم خروب" },
   ahmadHafez: { img: unknownImg, subject: 'العلوم', name: "أحمد حافظ" },
   yamanAbras: { img: unknownImg, subject: 'اللغة العربية', name: "يمان أبرص" },
@@ -124,5 +124,8 @@ export const teachersData: TeachersData = {
   safiKabbani: { img: unknownImg, subject: 'العلوم', name: "صافي قباني" },
   mjdNahlawy: { img: unknownImg, subject: 'اللغة الفرنسية', name: "مجد نحلاوي" },
   mohammadNourAldeen: { img: unknownImg, subject: 'ناريخ و جغرافيا', name: "محمد نور الدين" },
+  wajeehDwidry: { img: unknownImg, subject: 'اللغة الإنجليزية', name: 'وجيه دويدري' },
+  ismaelSafaia: { img: unknownImg, subject: 'اللغة الفرنسية', name: 'إسماعيل  صفايا' },
+  mustafaRslan: { img: unknownImg, subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
 };
 
