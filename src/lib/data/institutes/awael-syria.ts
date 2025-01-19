@@ -64,7 +64,38 @@ export const awaelSyriaInistitute = {
       heading: 'التاسع',
       href: '/institutes/awael-syria/ninth',
       description: 'الصف التاسع هو مرحلة مفصلية نحو الامتحانات الشاملة التي تحدد مسار الطلاب المستقبلي. في مدارس نخبة حلب، نقدم برامج تعليمية مبتكرة وموجهة تساعد الطلاب على التفوق في الامتحانات الرسمية. نضمن بيئة تعليمية محفزة وداعمة تجعل من التفوق الخيار الوحيد أمامهم.',
-      teachers: [teachersData.yamanAbras, teachersData.mehdiBasteka, teachersData.adeebAlsayed, teachersData.adeebZohor, teachersData.ammarKhdry, teachersData.nihadSeno, teachersData.ihabGamal, teachersData.saleemKaroub, teachersData.mohannadAshor],
+      teachers: [
+
+        // math
+        teachersData.adeebAlsayed,
+
+
+        // phy and chem
+        teachersData.mehdiBasteka,
+
+        // science
+        teachersData.saleemKaroub,
+
+        // ar 
+        teachersData.yamanAbras,
+
+        // en
+        teachersData.mohannadAshor,
+
+        // fr
+
+        teachersData.ammarKhdry,
+        teachersData.nihadSeno,
+
+        // t + j
+        teachersData.adeebZohor,
+
+
+        // rel
+        teachersData.ihabGamal
+
+
+      ],
       imgs: [],
 
       test: ninthTest,
