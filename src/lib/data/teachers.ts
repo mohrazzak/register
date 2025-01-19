@@ -72,7 +72,7 @@ type TeacherNames =
   | "ferasAlsayyedOmar"
   | "safiKabbani"
   | "mjdNahlawy"
-  | "mohammadNourAldeen" | "wajeehDwidry" | "ismaelSafaia" | "mustafaRslan";
+  | "mohammadNourAldeen" | "wajeehDwidry" | "ismaelSafaia" | "mustafaRslan" | "sohaybSarmini" | "zakariaRajabBasha" | "baraaSreo";
 type TeachersData = {
   [key in TeacherNames]: { img: Picture, subject: Subject, name: string }
 }
@@ -127,5 +127,8 @@ export const teachersData: TeachersData = {
   wajeehDwidry: { img: unknownImg, subject: 'اللغة الإنجليزية', name: 'وجيه دويدري' },
   ismaelSafaia: { img: unknownImg, subject: 'اللغة الفرنسية', name: 'إسماعيل  صفايا' },
   mustafaRslan: { img: unknownImg, subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
+  sohaybSarmini: { img: unknownImg, subject: 'الكيمياء', name: 'صهيب سرميني' },
+  zakariaRajabBasha: { img: unknownImg, subject: 'العلوم', name: 'زكريا رجب باشا' },
+  baraaSreo: { img: unknownImg, subject: 'العلوم', name: 'براء سريو' },
 };
 

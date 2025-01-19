@@ -23,7 +23,42 @@ export const nukhbehInstitute = {
       heading: 'البكالوريا',
       href: '/institutes/institute/baccalaureate',
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
-      teachers: [teachersData.jamalSheikhDiab, teachersData.abdalazizZakaria, teachersData.anasDrgham, teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab, teachersData.younesDsouki, teachersData.mahmoudDarwish, teachersData.mahmoudHreh, teachersData.kamelKadi, teachersData.ahmadOthman, teachersData.othmanAlMohammad, teachersData.ramezAlSaeed, teachersData.sobhiSawwas, teachersData.hussamDwick, teachersData.hasanNaasan, teachersData.alaaAttar, teachersData.ihabGamal],
+      teachers: [
+
+        // math
+        teachersData.jamalSheikhDiab,
+        teachersData.abdalazizZakaria,
+        teachersData.anasDrgham,
+
+
+        // phy
+        teachersData.jalalAddas,
+        teachersData.anasNajjar,
+        teachersData.alaaArab,
+        teachersData.younesDsouki,
+
+        // Chem
+        teachersData.mahmoudDarwish,
+        teachersData.mahmoudHreh,
+
+
+        // Science
+        teachersData.kamelKadi, teachersData.ahmadOthman, teachersData.othmanAlMohammad,
+
+
+
+        // Ar
+        teachersData.ramezAlSaeed,
+        teachersData.hussamDwick,
+        teachersData.sobhiSawwas,
+
+        // en
+        teachersData.hasanNaasan,
+        // fr
+        teachersData.alaaAttar,
+        // rele
+        teachersData.ihabGamal
+      ],
       imgs: [],
       test: bacTest,
       workingPlans: bacWorkingPlan,

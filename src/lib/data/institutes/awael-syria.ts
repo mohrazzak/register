@@ -23,7 +23,39 @@ export const awaelSyriaInistitute = {
       heading: 'البكالوريا',
       href: '/institutes/awael-syria/baccalaureate',
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
-      teachers: [teachersData.ramezAlSaeed, teachersData.safwanIdress, teachersData.samerSleman, teachersData.hasanNaasan, teachersData.alaaAttar, teachersData.mohammadAlIssa, teachersData.mohammadHilal, teachersData.ahmadOthman, teachersData.ihabGamal,],
+      teachers: [
+        // math
+        teachersData.safwanIdress,
+
+        // phy
+        teachersData.mohammadHilal,
+
+        // chem
+        teachersData.samerSleman,
+
+
+        // science
+        teachersData.ahmadOthman,
+
+        // ar
+        teachersData.ramezAlSaeed,
+
+
+        // en 
+        teachersData.hasanNaasan,
+
+
+        // fr
+        teachersData.alaaAttar,
+
+
+        // rel
+
+        teachersData.ihabGamal
+
+
+
+      ],
       imgs: [],
       test: bacTest,
       workingPlans: bacWorkingPlan,

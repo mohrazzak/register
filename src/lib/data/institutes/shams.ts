@@ -24,7 +24,43 @@ export const shamsInstitute = {
     {
       heading: 'البكالوريا',
       href: '/institutes/shams/baccalaureate',
-      description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.', teachers: [teachersData.anasDrgham, teachersData.mohammadFarek, teachersData.mohammadTabbakh, teachersData.mohammadAmeenSeedo, teachersData.samerSleman, teachersData.mahmoudHreh, teachersData.kamelKadi, teachersData.othmanAlMohammad, teachersData.ramezAlSaeed, teachersData.hussamDwick, teachersData.basharGamalAldeen, teachersData.ihabGamal],
+      description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.', teachers: [
+        /// math   
+        teachersData.anasDrgham,
+        teachersData.waseemShayyah,
+        teachersData.mohammadFarek,
+
+        // py
+
+        teachersData.mohammadAmeenSeedo,
+        teachersData.mohammadTabbakh,
+
+        // chem
+        teachersData.samerSleman,
+        teachersData.mahmoudHreh,
+
+
+
+        // science
+        teachersData.kamelKadi,
+        teachersData.othmanAlMohammad,
+
+
+        // ar
+
+        teachersData.ramezAlSaeed,
+        teachersData.hussamDwick,
+
+
+        // en
+        teachersData.basharGamalAldeen,
+
+        // rele
+        teachersData.ihabGamal
+
+
+
+      ],
       test: bacTest,
       imgs: [],
       workingPlans: bacWorkingPlan,
@@ -34,7 +70,45 @@ export const shamsInstitute = {
       href: '/institutes/shams/ninth',
       description: 'الصف التاسع هو مرحلة مفصلية نحو الامتحانات الشاملة التي تحدد مسار الطلاب المستقبلي. في مدارس نخبة حلب، نقدم برامج تعليمية مبتكرة وموجهة تساعد الطلاب على التفوق في الامتحانات الرسمية. نضمن بيئة تعليمية محفزة وداعمة تجعل من التفوق الخيار الوحيد أمامهم.',
       test: ninthTest,
-      teachers: [teachersData.adeebAlsayed, teachersData.mehdiBasteka, teachersData.saleemKaroub, teachersData.ahmadHafez, teachersData.yamanAbras, teachersData.mohsenKadi, teachersData.salyKayyali, teachersData.nihadSeno, teachersData.ammarKhdry, teachersData.adeebZohor, teachersData.ihabGamal],
+      teachers: [
+
+        // math
+        teachersData.adeebAlsayed,
+
+        // py chem
+        teachersData.mehdiBasteka,
+
+
+        // science
+        teachersData.mehdiBasteka,
+
+        // science
+        teachersData.ahmadHafez,
+        teachersData.saleemKaroub,
+
+        // Ar
+        teachersData.yamanAbras,
+
+        // En
+        teachersData.salyKayyali,
+        teachersData.mohsenKadi,
+
+
+        // fr
+        teachersData.ammarKhdry,
+        teachersData.nihadSeno,
+
+
+        // t + j
+        teachersData.adeebZohor,
+
+
+        // Rel
+        teachersData.ihabGamal
+
+
+
+      ],
       imgs: [],
       workingPlans: ninthWorkingPlan
     },

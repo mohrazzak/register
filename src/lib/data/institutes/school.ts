@@ -62,7 +62,46 @@ export const schoolInstitute: Institute = {
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
       imgs: [twelve1, twelve2, twelve3, twelve4],
       teachers: [
-        teachersData.jamalSheikhDiab, teachersData.abdalazizZakaria, teachersData.anasDrgham, teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab, teachersData.younesDsouki, teachersData.mahmoudDarwish, teachersData.mahmoudHreh, teachersData.kamelKadi, teachersData.ahmadOthman, teachersData.othmanAlMohammad, teachersData.ramezAlSaeed, teachersData.sobhiSawwas, teachersData.hussamDwick, teachersData.hasanNaasan, teachersData.alaaAttar, teachersData.ihabGamal, teachersData.mohammadFarek, teachersData.mohammadTabbakh, teachersData.mohammadAmeenSeedo, teachersData.samerSleman, teachersData.waseemShayyah, teachersData.tariqSayedAli, teachersData.safwanIdress, teachersData.mohammadHilal, teachersData.hazemGhnaimi, teachersData.salemGazeh
+
+        // Math
+        teachersData.jamalSheikhDiab, teachersData.abdalazizZakaria, teachersData.safwanIdress, teachersData.anasDrgham, teachersData.waseemShayyah, teachersData.mohammadFarek,
+
+        // Physics
+        teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab, teachersData.mohammadAmeenSeedo,
+
+        // Chemistry
+
+        teachersData.mahmoudDarwish,
+        teachersData.samerSleman,
+        teachersData.sohaybSarmini,
+        teachersData.hazemGhnaimi,
+
+        // Science
+        teachersData.kamelKadi,
+        teachersData.ahmadOthman,
+        teachersData.othmanAlMohammad,
+        teachersData.zakariaRajabBasha,
+
+        // Arabic
+        teachersData.ramezAlSaeed,
+        teachersData.hussamDwick,
+        teachersData.sobhiSawwas,
+        teachersData.baraaSreo,
+
+
+        // EN
+        teachersData.hasanNaasan,
+        teachersData.basharGamalAldeen,
+        teachersData.salemGazeh,
+        teachersData.wajeehDwidry,
+
+
+        // FR
+        teachersData.alaaAttar,
+
+        // Releg
+        teachersData.ihabGamal,
+
       ],
       workingPlans: bacWorkingPlan,
       test: bacTest
@@ -73,9 +112,6 @@ export const schoolInstitute: Institute = {
       href: '/institutes/school/eleventh',
       description: 'الصف الحادي عشر هو التحضير الجاد للبكالوريا، حيث نعمل على بناء أساس أكاديمي قوي يمكن الطلاب من التفوق في الصف النهائي. في مدارس نخبة حلب، نركز على تطوير التفكير النقدي والمهارات العلمية، مع الاهتمام بالجوانب النفسية والاجتماعية للطلاب. ندعمهم عبر كوادر تعليمية متخصصة وأساليب تدريس متقدمة تفتح أمامهم آفاقًا جديدة لتحقيق أهدافهم.',
       imgs: [],
-      teachers: [
-        teachersData.jamalSheikhDiab, teachersData.abdalazizZakaria, teachersData.anasDrgham, teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab, teachersData.younesDsouki, teachersData.mahmoudDarwish, teachersData.mahmoudHreh, teachersData.kamelKadi, teachersData.ahmadOthman, teachersData.othmanAlMohammad, teachersData.ramezAlSaeed, teachersData.sobhiSawwas, teachersData.hussamDwick, teachersData.hasanNaasan, teachersData.alaaAttar, teachersData.ihabGamal, teachersData.mohammadFarek, teachersData.mohammadTabbakh, teachersData.mohammadAmeenSeedo, teachersData.samerSleman, teachersData.waseemShayyah, teachersData.tariqSayedAli, teachersData.safwanIdress, teachersData.mohammadHilal, teachersData.hazemGhnaimi, teachersData.salemGazeh
-      ],
       test: [{
         text: `السبر هو امتحان يقيم مستوى الطلاب قبل الالتحاق بصف الحادي عشر. يشمل المواد الأساسية التالية:<br/> اللغة العربية، الرياضيات، الفيزياء، والكيمياء. <br/>يهدف السبر إلى اختبار قدرة الطالب على استيعاب هذه المواد لضمان استعداده للمرحلة الدراسية القادمة.`,
         bold: false
@@ -111,7 +147,43 @@ export const schoolInstitute: Institute = {
       href: '/institutes/school/ninth',
       description: 'الصف التاسع هو مرحلة مفصلية نحو الامتحانات الشاملة التي تحدد مسار الطلاب المستقبلي. في مدارس نخبة حلب، نقدم برامج تعليمية مبتكرة وموجهة تساعد الطلاب على التفوق في الامتحانات الرسمية. نضمن بيئة تعليمية محفزة وداعمة تجعل من التفوق الخيار الوحيد أمامهم.',
       imgs: [nine],
-      teachers: [teachersData.adeebAlsayed, teachersData.mehdiBasteka, teachersData.saleemKaroub, teachersData.ahmadHafez, teachersData.yamanAbras, teachersData.mohsenKadi, teachersData.salyKayyali, teachersData.nihadSeno, teachersData.ammarKhdry, teachersData.adeebZohor, teachersData.ihabGamal, teachersData.mohannadAshor, teachersData.ferasAlsayyedOmar, teachersData.salwaAboGalon, teachersData.safiKabbani, teachersData.abdalwahabTaskya, teachersData.mjdNahlawy, teachersData.mohammadNourAldeen,],
+      teachers: [
+
+
+        // Math
+        teachersData.adeebAlsayed,
+        teachersData.ferasAlsayyedOmar,
+
+        // Phy + Chem
+        teachersData.mehdiBasteka,
+
+
+        // Science
+        teachersData.salwaAboGalon,
+        teachersData.ahmadHafez,
+
+
+        // AR
+        teachersData.safiKabbani,
+        teachersData.yamanAbras,
+
+        // EN
+        teachersData.mohannadAshor,
+        teachersData.abdalwahabTaskya,
+
+        // FR
+        teachersData.ammarKhdry,
+        teachersData.nihadSeno,
+        teachersData.mjdNahlawy,
+
+        // T + J
+        teachersData.adeebZohor,
+        teachersData.mohammadNourAldeen,
+
+        // releg
+        teachersData.ihabGamal,
+
+      ],
       test: ninthTest,
       workingPlans: ninthWorkingPlan,
     },

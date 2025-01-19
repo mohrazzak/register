@@ -23,7 +23,42 @@ export const gelAlshahbaaInstitute = {
       href: '/institutes/alshahba-generation/baccalaureate',
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
       imgs: [],
-      teachers: [teachersData.abdalazizZakaria, teachersData.anasDrgham, teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab, teachersData.waseemShayyah, teachersData.mahmoudDarwish, teachersData.kamelKadi, teachersData.ahmadOthman, teachersData.ramezAlSaeed, teachersData.sobhiSawwas, teachersData.tariqSayedAli, teachersData.ihabGamal],
+      teachers: [
+
+        // Math
+        teachersData.abdalazizZakaria,
+        teachersData.anasDrgham,
+        teachersData.waseemShayyah,
+
+
+        // phy
+        teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab,
+
+        // Chem
+
+        teachersData.mahmoudDarwish,
+
+
+
+        // Science 
+        teachersData.kamelKadi, teachersData.ahmadOthman,
+
+
+
+        // Ar
+        teachersData.ramezAlSaeed, teachersData.sobhiSawwas,
+
+
+
+        // En
+
+        teachersData.tariqSayedAli,
+
+        // rel
+        teachersData.ihabGamal
+
+
+      ],
       test: bacTest,
       workingPlans: bacWorkingPlan,
     },
