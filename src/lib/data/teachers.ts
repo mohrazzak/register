@@ -35,7 +35,7 @@ import unknownImg from '$lib/assets/images/teachers/unknown.jpg?enhanced';
 
 import type { Picture } from '$lib/interface/picture.interface';
 
-export type Subject = 'الرياضيات' | "الفيزياء" | "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "العلوم" | "ناريخ و جغرافيا" | "الفيزياء و الكيمياء";
+export type Subject = 'الرياضيات' | "الفيزياء" | "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "العلوم" | "تاريخ و جغرافيا" | "الفيزياء و الكيمياء";
 
 
 type TeacherNames =
