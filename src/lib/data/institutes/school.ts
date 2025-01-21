@@ -1,5 +1,4 @@
 import schoolBuilding from '$lib/assets/images/institutes/school/building.jpg?enhanced'
-import schoolClass from '$lib/assets/images/institutes/school/class.jpg?enhanced'
 import schoolFootball from '$lib/assets/images/institutes/school/football.jpg?enhanced'
 import shahbaBuilding from '$lib/assets/images/institutes/school/shahba_building.jpg?enhanced'
 import schools from '$lib/assets/images/logos/nukhbeh-schools.png?enhanced';
@@ -14,6 +13,19 @@ import level6 from '$lib/assets/images/institutes/school/1-6/6.jpg?enhanced'
 import inClass1 from '$lib/assets/images/institutes/school/+7/in_class.jpg?enhanced'
 import inClass2 from '$lib/assets/images/institutes/school/+7/in_class2.jpg?enhanced'
 import inClass3 from '$lib/assets/images/institutes/school/+7/IMG_20240807_120113_087.jpg?enhanced'
+import smile from '$lib/assets/images/institutes/school/1-6/1.jpg?enhanced'
+import smile2 from '$lib/assets/images/institutes/school/1-6/smile.jpg?enhanced'
+import ninth1 from '$lib/assets/images/institutes/school/9/IMG_1790.jpg?enhanced'
+import ninth2 from '$lib/assets/images/institutes/school/9/IMG_1793.jpg?enhanced'
+
+
+
+
+
+
+import act7 from '$lib/assets/images/institutes/school/+7/act.jpeg?enhanced'
+import act72 from '$lib/assets/images/institutes/school/+7/act2.jpeg?enhanced'
+import act73 from '$lib/assets/images/institutes/school/+7/IMG_20240807_120113_087.jpg?enhanced'
 
 
 import kg3 from '$lib/assets/images/institutes/school/kg/IMG_6083.png?enhanced'
@@ -51,7 +63,7 @@ export const schoolInstitute: Institute = {
       تقدم المدرسة خدمات تعليمية شاملة تغطي جميع المراحل الدراسية، بدءًا من الروضة وحتى الصف الثالث الثانوي العلمي. 
       ما يميز مدارس نخبة حلب هو الاهتمام الفردي بكل طالب، مع التركيز على تطوير الجوانب النفسية والتعليمية باستخدام أساليب تعليمية مبتكرة.
     `,
-  images: [schoolBuilding, shahbaBuilding, schoolClass, schoolFootball,],
+  images: [schoolBuilding, shahbaBuilding, schoolFootball],
   address: 'الشهباء - دوّار جامع الغزالي.',
   reception: '0989557701',
   accounting: '0989557738',
@@ -146,7 +158,7 @@ export const schoolInstitute: Institute = {
       heading: 'التاسع',
       href: '/institutes/school/ninth',
       description: 'الصف التاسع هو مرحلة مفصلية نحو الامتحانات الشاملة التي تحدد مسار الطلاب المستقبلي. في مدارس نخبة حلب، نقدم برامج تعليمية مبتكرة وموجهة تساعد الطلاب على التفوق في الامتحانات الرسمية. نضمن بيئة تعليمية محفزة وداعمة تجعل من التفوق الخيار الوحيد أمامهم.',
-      imgs: [nine],
+      imgs: [nine, ninth1, ninth2],
       teachers: [
 
 
@@ -192,7 +204,7 @@ export const schoolInstitute: Institute = {
       href: '/institutes/school/seventh-and-eighth',
       description: 'في الصفين السابع والثامن، نركز على بناء المهارات الأساسية وتعزيز الثقة بالنفس، حيث يشكلان الأساس لاستيعاب المناهج المتقدمة في المراحل القادمة. في مدارس نخبة حلب، نقدم تعليمًا شموليًا يهتم بالجوانب الأكاديمية والنفسية، لنضمن أن كل طالب يسير بخطى ثابتة نحو التميز.'
       ,
-      imgs: [inClass1, inClass3, inClass2],
+      imgs: [inClass1, inClass3, inClass2, act7, act72, act73],
       test: [{
         text: `السبر هو امتحان يقيم مستوى الطلاب قبل الالتحاق بالمرحلة الدراسية. يشمل المواد الأساسية التالية:<br/> اللغة ,اللغة العربية, اللغة الانكليزية, رياضيات, اللغة الفرنسية. <br/>يهدف السبر إلى اختبار قدرة الطالب على استيعاب هذه المواد لضمان استعداده للمرحلة الدراسية القادمة.`,
         bold: false
@@ -215,7 +227,7 @@ export const schoolInstitute: Institute = {
       heading: 'الابتدائي',
       href: '/institutes/school/primary',
       description: 'المرحلة الابتدائية في مدارس نخبة حلب تشهد تطبيق أساليب تعليمية حديثة تهدف إلى بناء جيل من الطلاب القادرين على التفكير النقدي والإبداعي. نحن نولي اهتمامًا خاصًا ببناء شخصية الطالب وتنمية مهاراته الحياتية جنبًا إلى جنب مع تحصيله الأكاديمي. مدارس نخبة حلب توفر بيئة تعليمية محفزة تسهم في تحفيز الأطفال لتحقيق النجاح في مراحلهم المقبلة.',
-      imgs: [level2, level3, level4, level5, level6],
+      imgs: [level2, level3, level4, level5, level6, smile, smile2],
       workingPlans: [
 
         {
