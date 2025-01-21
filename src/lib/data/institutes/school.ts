@@ -29,7 +29,6 @@ import act73 from '$lib/assets/images/institutes/school/+7/IMG_20240807_120113_0
 
 
 import kg3 from '$lib/assets/images/institutes/school/kg/IMG_6083.png?enhanced'
-import kg4 from '$lib/assets/images/institutes/school/kg/IMG_6124.png?enhanced'
 
 import nine from '$lib/assets/images/institutes/school/9/IMG_20240807_103108_678.jpg?enhanced'
 
@@ -249,7 +248,7 @@ export const schoolInstitute: Institute = {
       heading: 'الروضة',
       href: '/institutes/school/kg',
       description: 'البداية الصحيحة هي الأساس لتعليم مثمر, نقدم بيئة تعليمية مليئة بالحب والرعاية حيث يتم تحفيز فضول الأطفال واكتشاف مواهبهم منذ الصغر. برامجنا التعليمية التفاعلية تضمن تنمية مهاراتهم العقلية والاجتماعية في أجواء مليئة بالمرح.',
-      imgs: [kg1, kg2, kg3, kg4],
+      imgs: [kg1, kg2, kg3,],
       workingPlans: [
         {
           title: 'غرس القيم والمبادئ',
