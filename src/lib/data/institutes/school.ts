@@ -11,7 +11,6 @@ import level4 from '$lib/assets/images/institutes/school/1-6/4.jpg?enhanced'
 import level5 from '$lib/assets/images/institutes/school/1-6/5.jpg?enhanced'
 import level6 from '$lib/assets/images/institutes/school/1-6/6.jpg?enhanced'
 import inClass1 from '$lib/assets/images/institutes/school/+7/in_class.jpg?enhanced'
-import inClass2 from '$lib/assets/images/institutes/school/+7/in_class2.jpg?enhanced'
 import inClass3 from '$lib/assets/images/institutes/school/+7/IMG_20240807_120113_087.jpg?enhanced'
 import smile from '$lib/assets/images/institutes/school/1-6/1.jpg?enhanced'
 import smile2 from '$lib/assets/images/institutes/school/1-6/smile.jpg?enhanced'
@@ -203,7 +202,7 @@ export const schoolInstitute: Institute = {
       href: '/institutes/school/seventh-and-eighth',
       description: 'في الصفين السابع والثامن، نركز على بناء المهارات الأساسية وتعزيز الثقة بالنفس، حيث يشكلان الأساس لاستيعاب المناهج المتقدمة في المراحل القادمة. في مدارس نخبة حلب، نقدم تعليمًا شموليًا يهتم بالجوانب الأكاديمية والنفسية، لنضمن أن كل طالب يسير بخطى ثابتة نحو التميز.'
       ,
-      imgs: [inClass1, inClass3, inClass2, act7, act72, act73],
+      imgs: [inClass1, inClass3, act7, act72, act73],
       test: [{
         text: `السبر هو امتحان يقيم مستوى الطلاب قبل الالتحاق بالمرحلة الدراسية. يشمل المواد الأساسية التالية:<br/> اللغة ,اللغة العربية, اللغة الانكليزية, رياضيات, اللغة الفرنسية. <br/>يهدف السبر إلى اختبار قدرة الطالب على استيعاب هذه المواد لضمان استعداده للمرحلة الدراسية القادمة.`,
         bold: false
