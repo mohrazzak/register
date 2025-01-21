@@ -1,5 +1,16 @@
 import awael1 from '$lib/assets/images/institutes/awael-syria/outer.jpg?enhanced'
+import awael12 from '$lib/assets/images/institutes/awael-syria/IMG_5250.jpg?enhanced'
+import awael13 from '$lib/assets/images/institutes/awael-syria/IMG_5256.jpg?enhanced'
 import awael from '$lib/assets/images/logos/nukhbeh-awael.png?enhanced';
+
+import twelve1 from '$lib/assets/images/institutes/awael-syria/12/IMG_5238.jpg?enhanced';
+import twelve12 from '$lib/assets/images/institutes/awael-syria/12/IMG_5242.jpg?enhanced';
+import twelve13 from '$lib/assets/images/institutes/awael-syria/12/IMG_5243.jpg?enhanced';
+import twelve14 from '$lib/assets/images/institutes/awael-syria/12/exam.jpg?enhanced';
+import twelve15 from '$lib/assets/images/institutes/awael-syria/12/in_class.jpg?enhanced';
+
+
+
 import { teachersData } from '../teachers';
 import { bacTest, bacWorkingPlan, ninthTest, ninthWorkingPlan } from './shared';
 
@@ -15,7 +26,7 @@ export const awaelSyriaInistitute = {
       يهدف المعهد إلى تخريج جيل مثقف فكريًا وأخلاقيًا من خلال تعزيز روح المنافسة والتنظيم، مع تشجيع الطلاب على الإصرار لتحقيق أهدافهم وجعل المستحيل ممكنًا. 
       نسعى لتطوير طلابنا ليصبحوا مميزين في مختلف المجالات.
     `,
-  images: [awael1],
+  images: [awael1, awael12, awael13],
   address: 'الفرقان - خلف بنك البركة.',
   reception: '0989557707',
   boxes: [
@@ -23,6 +34,7 @@ export const awaelSyriaInistitute = {
       heading: 'البكالوريا',
       href: '/institutes/awael-syria/baccalaureate',
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
+      imgs: [twelve1, twelve12, twelve13, twelve14, twelve15],
       teachers: [
         // math
         teachersData.safwanIdress,
@@ -56,7 +68,6 @@ export const awaelSyriaInistitute = {
 
 
       ],
-      imgs: [],
       test: bacTest,
       workingPlans: bacWorkingPlan,
     },
