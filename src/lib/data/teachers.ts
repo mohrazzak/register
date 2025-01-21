@@ -25,6 +25,7 @@ import ramezAlsaeed from '$lib/assets/images/teachers/ramez_Saeed.jpg?enhanced';
 import waseemShayah from '$lib/assets/images/teachers/waseem_shayah.jpg?enhanced';
 import salemGazeh from '$lib/assets/images/teachers/salem_gazeh.jpg?enhanced';
 import baraaSreo from '$lib/assets/images/teachers/baraa_sreo.jpg?enhanced';
+import mohamadAmenSedo from '$lib/assets/images/teachers/mohamadAmenSedo.png?enhanced';
 
 
 
@@ -115,7 +116,7 @@ export const teachersData: TeachersData = {
   hasanNaasan: { img: hasanNaasan, subject: 'اللغة الإنجليزية', name: "حسن نعسان" },
   ihabGamal: { img: ihabGamal, subject: 'التربية الدينية', name: "إيهاب جمال" },
   mohammadTabbakh: { img: mohammadTabbakh, subject: 'الفيزياء', name: "محمد طبّاخ" },
-  mohammadAmeenSeedo: { img: unknownImg, subject: 'الفيزياء', name: "محمد أمين سيدو" },
+  mohammadAmeenSeedo: { img: mohamadAmenSedo, subject: 'الفيزياء', name: "محمد أمين سيدو" },
   adeebAlsayed: { img: unknownImg, subject: 'الرياضيات', name: "أديب السيد" },
   mehdiBasteka: { img: unknownImg, subject: 'الفيزياء و الكيمياء', name: "مهدي بصطيقة" },
   saleemKaroub: { img: unknownImg, subject: 'العلوم', name: "سليم خروب" },
