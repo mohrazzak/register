@@ -133,7 +133,7 @@ export const teachersData: TeachersData = {
   mohannadAshor: { img: mohannadAshor, subject: 'اللغة الإنجليزية', name: "مهند عاشور" },
   salemGazeh: { img: salemGazeh, subject: 'اللغة الإنجليزية', name: "سالم جازة" },
   ferasAlsayyedOmar: { img: unknownImg, subject: 'الرياضيات', name: "فراس السيد عمر" },
-  safiKabbani: { img: unknownImg, subject: 'العلوم', name: "صافي قباني" },
+  safiKabbani: { img: unknownImg, subject: 'اللغة الفرنسية', name: "صافي قباني" },
   mjdNahlawy: { img: unknownImg, subject: 'اللغة الفرنسية', name: "مجد نحلاوي" },
   mohammadNourAldeen: { img: unknownImg, subject: 'تاريخ و جغرافيا', name: "محمد نور الدين" },
   wajeehDwidry: { img: unknownImg, subject: 'اللغة الإنجليزية', name: 'وجيه دويدري' },
@@ -141,6 +141,6 @@ export const teachersData: TeachersData = {
   mustafaRslan: { img: unknownImg, subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
   sohaybSarmini: { img: unknownImg, subject: 'الكيمياء', name: 'صهيب سرميني' },
   zakariaRajabBasha: { img: unknownImg, subject: 'العلوم', name: 'زكريا رجب باشا' },
-  baraaSreo: { img: baraaSreo, subject: 'العلوم', name: 'براء سريو' },
+  baraaSreo: { img: baraaSreo, subject: 'اللغة العربية', name: 'براء سريو' },
 };
 
