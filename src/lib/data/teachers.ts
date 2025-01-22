@@ -26,6 +26,7 @@ import waseemShayah from '$lib/assets/images/teachers/waseem_shayah.jpg?enhanced
 import salemGazeh from '$lib/assets/images/teachers/salem_gazeh.jpg?enhanced';
 import baraaSreo from '$lib/assets/images/teachers/baraa_sreo.jpg?enhanced';
 import mohamadAmenSedo from '$lib/assets/images/teachers/mohamadAmenSedo.png?enhanced';
+import sobhiSawas from '$lib/assets/images/teachers/sobhi_sawas.jpeg?enhanced';
 
 
 
@@ -112,7 +113,7 @@ export const teachersData: TeachersData = {
   ahmadOthman: { img: ahmadOthman, subject: 'العلوم', name: "أحمد عثمان" },
   othmanAlMohammad: { img: othmanAlmohamad, subject: 'العلوم', name: "عثمان المحمد" },
   ramezAlSaeed: { img: ramezAlsaeed, subject: 'اللغة العربية', name: "رامز السعيد" },
-  sobhiSawwas: { img: unknownImg, subject: 'اللغة العربية', name: "صبحي سواس" },
+  sobhiSawwas: { img: sobhiSawas, subject: 'اللغة العربية', name: "صبحي سواس" },
   hasanNaasan: { img: hasanNaasan, subject: 'اللغة الإنجليزية', name: "حسن نعسان" },
   ihabGamal: { img: ihabGamal, subject: 'التربية الدينية', name: "إيهاب جمال" },
   mohammadTabbakh: { img: mohammadTabbakh, subject: 'الفيزياء', name: "محمد طبّاخ" },
