@@ -1,6 +1,19 @@
 import shams from '$lib/assets/images/logos/nukhbeh-shams.png?enhanced';
 
 import shams1 from '$lib/assets/images/institutes/shams/outer.jpg?enhanced'
+import shams2 from '$lib/assets/images/institutes/shams/inside.jpg?enhanced'
+
+
+import bac1 from '$lib/assets/images/institutes/shams/12/1.jpg?enhanced'
+import bac2 from '$lib/assets/images/institutes/shams/12/2.jpg?enhanced'
+
+
+
+import ninth1 from '$lib/assets/images/institutes/shams/9/1.jpg?enhanced'
+import ninth2 from '$lib/assets/images/institutes/shams/9/2.jpg?enhanced'
+
+
+
 import { bacTest, bacWorkingPlan, ninthTest, ninthWorkingPlan } from './shared';
 import { teachersData } from '../teachers';
 
@@ -17,7 +30,7 @@ export const shamsInstitute = {
       يسعى المعهد لخلق بيئة تعليمية محفزة تزرع في نفوس الطلاب حب التعلم والتطور، مع التركيز على تحقيق أعلى درجات التفوق. 
       كما يتيح المعهد للطلاب فرصة التسجيل في دورات خاصة لأخذ مواد البكالوريا أثناء سنة الحادي عشر، مما يمكنهم من الاستعداد المبكر وتحقيق نتائج متميزة.
     `,
-  images: [shams1],
+  images: [shams1, shams2],
   address: 'دوار الكرة - مقابل نادي الضباط.',
   reception: '0989557708',
   boxes: [
@@ -62,7 +75,7 @@ export const shamsInstitute = {
 
       ],
       test: bacTest,
-      imgs: [],
+      imgs: [bac1, bac2],
       workingPlans: bacWorkingPlan,
     },
     {
@@ -109,7 +122,7 @@ export const shamsInstitute = {
 
 
       ],
-      imgs: [],
+      imgs: [ninth1, ninth2],
       workingPlans: ninthWorkingPlan
     },
   ]
