@@ -70,12 +70,12 @@
 		>
 			<Carousel.Content>
 				{#each level.imgs as e}
-					<Carousel.Item class="bg-slate-400">
+					<Carousel.Item>
 						<img
 							src={e}
 							alt={'slider of school'}
 							loading="lazy"
-							class="h-[400px] w-full bg-slate-400 bg-cover object-cover"
+							class="h-[400px] w-full border-primary/25 bg-cover object-cover"
 						/>
 					</Carousel.Item>
 				{/each}
@@ -121,12 +121,12 @@
 				>
 					<Carousel.Content>
 						{#each level.teachers as e}
-							<Carousel.Item class="w-30 relative rounded-lg bg-slate-500 ">
+							<Carousel.Item class="w-30 relative rounded-lg ">
 								<img
 									src={e.img}
 									alt="ias"
 									loading="lazy"
-									class="h-full max-h-full w-full rounded-lg bg-slate-400 object-cover"
+									class="h-full max-h-full w-full rounded-lg border-primary/25 object-cover"
 								/>
 								<div
 									class="absolute bottom-0 left-0 flex h-24 w-full flex-wrap items-center justify-center rounded-sm bg-stone-800 bg-opacity-80 p-2 text-center text-2xl font-bold text-gray-50 shadow-lg"

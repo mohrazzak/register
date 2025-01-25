@@ -42,8 +42,13 @@
 		>
 			<Carousel.Content>
 				{#each institute.images as e}
-					<Carousel.Item class="w-full bg-slate-400">
-						<img src={e} alt="ias" loading="lazy" class="h-[300px] object-cover" />
+					<Carousel.Item class="w-full">
+						<img
+							src={e}
+							alt="ias"
+							loading="lazy"
+							class="h-[300px] border-primary/25 object-cover"
+						/>
 					</Carousel.Item>
 				{/each}
 			</Carousel.Content>
