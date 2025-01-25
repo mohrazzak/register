@@ -12,7 +12,7 @@ export const nukhbehInstitute = {
       يعمل مركز النخبة التعليمي على تقديم تعليم عالي الجودة من خلال مراكزه الموزعة في مدينة حلب. 
       يهدف المركز إلى بناء جيل واعٍ ومثقف، مع التركيز على تعزيز الثقة بالنفس وروح التحدي لدى الطلاب، مما يساعدهم على تحقيق أهدافهم الأكاديمية والشخصية.
     `,
-  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_400,q_auto:eco/v1737824251/register/images/institutes/institute/zrtji4uljhutjftw2nqq.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_400,q_auto:eco/v1737824247/register/images/institutes/institute/nxlwxaht8gtqlsuwucbl.jpg'],
+  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824251/register/images/institutes/institute/zrtji4uljhutjftw2nqq.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824247/register/images/institutes/institute/nxlwxaht8gtqlsuwucbl.jpg'],
   address: 'حي السبيل - أمام جامع الرحمن.',
   reception: '0989557705',
   boxes: [
