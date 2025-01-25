@@ -5,14 +5,14 @@ import { teachersData } from '../teachers';
 export const nukhbehInstitute = {
   slug: '/institutes/institute',
   name: 'مركز النخبة التعليمي',
-  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824408/register/images/logos/qzb9rs1zt2zhou1o1eeo.png',
+  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824408/register/images/logos/qzb9rs1zt2zhou1o1eeo.png',
   logoAlt: "لوغو مركز النخبة التعليمي",
   smallDescription: 'مع النخبة.. حول أمنياتك إلى أهداف',
   description: `
       يعمل مركز النخبة التعليمي على تقديم تعليم عالي الجودة من خلال مراكزه الموزعة في مدينة حلب. 
       يهدف المركز إلى بناء جيل واعٍ ومثقف، مع التركيز على تعزيز الثقة بالنفس وروح التحدي لدى الطلاب، مما يساعدهم على تحقيق أهدافهم الأكاديمية والشخصية.
     `,
-  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1737824251/register/images/institutes/institute/zrtji4uljhutjftw2nqq.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824247/register/images/institutes/institute/nxlwxaht8gtqlsuwucbl.jpg'],
+  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824251/register/images/institutes/institute/zrtji4uljhutjftw2nqq.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824247/register/images/institutes/institute/nxlwxaht8gtqlsuwucbl.jpg'],
   address: 'حي السبيل - أمام جامع الرحمن.',
   reception: '0989557705',
   boxes: [

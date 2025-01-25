@@ -18,7 +18,7 @@ import { bacTest, bacWorkingPlan, ninthTest, ninthWorkingPlan } from './shared';
 export const awaelSyriaInistitute = {
   slug: '/institutes/awael-syria',
   name: 'معهد أوائل سوريا',
-  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824402/register/images/logos/hsyy0uqeklc1mbi5wsh0.png',
+  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824402/register/images/logos/hsyy0uqeklc1mbi5wsh0.png',
   logoAlt: "لوغو معهد أوائل سوريا",
   smallDescription: 'مع النخبة.. حول أمنياتك إلى أهداف',
   description: `
@@ -26,7 +26,7 @@ export const awaelSyriaInistitute = {
       يهدف المعهد إلى تخريج جيل مثقف فكريًا وأخلاقيًا من خلال تعزيز روح المنافسة والتنظيم، مع تشجيع الطلاب على الإصرار لتحقيق أهدافهم وجعل المستحيل ممكنًا. 
       نسعى لتطوير طلابنا ليصبحوا مميزين في مختلف المجالات.
     `,
-  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1737824210/register/images/institutes/awael-syria/jzdukiiwmhvbchuwsclt.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824192/register/images/institutes/awael-syria/htvju4y6xtnerezg8szv.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824188/register/images/institutes/awael-syria/mkx2lnfauubcvwmu4suq.jpg'],
+  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824210/register/images/institutes/awael-syria/jzdukiiwmhvbchuwsclt.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824192/register/images/institutes/awael-syria/htvju4y6xtnerezg8szv.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824188/register/images/institutes/awael-syria/mkx2lnfauubcvwmu4suq.jpg'],
   address: 'الفرقان - خلف بنك البركة.',
   reception: '0989557707',
   boxes: [
@@ -34,7 +34,7 @@ export const awaelSyriaInistitute = {
       heading: 'البكالوريا',
       href: '/institutes/awael-syria/baccalaureate',
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
-      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1737824175/register/images/institutes/awael-syria/12/fgmw80nqxbpljnxneipw.jpeg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824173/register/images/institutes/awael-syria/12/z4hkwmzqhhrcahbszlsl.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824167/register/images/institutes/awael-syria/12/odv7upeiizlhem0g2h9h.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824154/register/images/institutes/awael-syria/12/inusuzbm1e7dhm91uziz.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824152/register/images/institutes/awael-syria/12/jea8l3juvsliumtljg1r.jpg'],
+      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824175/register/images/institutes/awael-syria/12/fgmw80nqxbpljnxneipw.jpeg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824173/register/images/institutes/awael-syria/12/z4hkwmzqhhrcahbszlsl.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824167/register/images/institutes/awael-syria/12/odv7upeiizlhem0g2h9h.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824154/register/images/institutes/awael-syria/12/inusuzbm1e7dhm91uziz.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824152/register/images/institutes/awael-syria/12/jea8l3juvsliumtljg1r.jpg'],
       teachers: [
         // math
         teachersData.safwanIdress,
