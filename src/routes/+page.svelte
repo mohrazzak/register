@@ -13,7 +13,7 @@
 
 <article class="container">
 	<PageHeading
-		img={'https://res.cloudinary.com/dgive1g2g/image/upload/w_100,q_auto:eco/v1737824394/register/images/logos/djqrffse5gmgknt0fay5.png'}
+		img={'https://res.cloudinary.com/dgive1g2g/image/upload/w_200,q_auto:eco/v1737824394/register/images/logos/djqrffse5gmgknt0fay5.png'}
 		alt="لوغو اسرة النخبة"
 		heading="أهلا بك في<br>أسرة النخبة التعليمية"
 		subheading="النخبة .. حيث يجتمع الإبداع والتميز والتكامل"
