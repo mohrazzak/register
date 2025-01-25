@@ -16,7 +16,7 @@ export const shamsInstitute = {
       يسعى المعهد لخلق بيئة تعليمية محفزة تزرع في نفوس الطلاب حب التعلم والتطور، مع التركيز على تحقيق أعلى درجات التفوق. 
       كما يتيح المعهد للطلاب فرصة التسجيل في دورات خاصة لأخذ مواد البكالوريا أثناء سنة الحادي عشر، مما يمكنهم من الاستعداد المبكر وتحقيق نتائج متميزة.
     `,
-  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824402/register/images/institutes/shams/qawwqfbrom6ckoxbxska.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824394/register/images/institutes/shams/jpuiv6nagzrfkyo2m8jq.jpg'],
+  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824402/register/images/institutes/shams/qawwqfbrom6ckoxbxska.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824394/register/images/institutes/shams/jpuiv6nagzrfkyo2m8jq.jpg'],
   address: 'دوار الكرة - مقابل نادي الضباط.',
   reception: '0989557708',
   boxes: [
@@ -61,7 +61,7 @@ export const shamsInstitute = {
 
       ],
       test: bacTest,
-      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824386/register/images/institutes/shams/12/hkvgh0jugepeedtuy2ed.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824383/register/images/institutes/shams/12/qcsteqzdzk93hluu3c8f.jpg'],
+      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824386/register/images/institutes/shams/12/hkvgh0jugepeedtuy2ed.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824383/register/images/institutes/shams/12/qcsteqzdzk93hluu3c8f.jpg'],
       workingPlans: bacWorkingPlan,
     },
     {
@@ -108,7 +108,7 @@ export const shamsInstitute = {
 
 
       ],
-      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824392/register/images/institutes/shams/9/tvcgrtwafuecsy3ceign.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824388/register/images/institutes/shams/9/dw2jqyt6jlkinwrjhtps.jpg'],
+      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824392/register/images/institutes/shams/9/tvcgrtwafuecsy3ceign.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824388/register/images/institutes/shams/9/dw2jqyt6jlkinwrjhtps.jpg'],
       workingPlans: ninthWorkingPlan
     },
   ]

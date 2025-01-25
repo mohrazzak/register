@@ -15,7 +15,7 @@
 {/if}
 
 <img
-	src={'https://res.cloudinary.com/dgive1g2g/image/upload/w_800,q_auto:eco/v1737824172/register/images/gxfzqi2bc83wtchibubz.jpg'}
+	src={'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824172/register/images/gxfzqi2bc83wtchibubz.jpg'}
 	alt="Alnukhbeh school"
 	class="fixed left-0 top-0 -z-10 h-full w-full object-cover blur-sm brightness-[.3]"
 />
