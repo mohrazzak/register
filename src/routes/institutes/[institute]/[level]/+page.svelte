@@ -121,7 +121,7 @@
 				>
 					<Carousel.Content>
 						{#each level.teachers as e, i}
-							<Carousel.Item class="w-30 relative rounded-lg ">
+							<Carousel.Item class="w-30 relative rounded-lg">
 								<img
 									src={e.img}
 									alt="ias"

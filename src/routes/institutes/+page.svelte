@@ -18,7 +18,7 @@
 
 <article class="container">
 	<PageHeading
-		img={'https://res.cloudinary.com/dgive1g2g/image/upload/q_auto:eco/v1737824433/register/images/logos/ur9uzwhvkvqndfinpjnl.png'}
+		img={'https://res.cloudinary.com/dgive1g2g/image/upload/w_100,q_auto:eco/v1737824433/register/images/logos/ur9uzwhvkvqndfinpjnl.png'}
 		alt="لوغو أسرة النخبة التعليمية"
 		heading="أهلا بك في معاهد النخبة "
 		subheading="النخبة .. حيث يجتمع الإبداع والتميز والتكامل"

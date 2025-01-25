@@ -9,7 +9,7 @@ import type { Institute } from '..';
 export const schoolInstitute: Institute = {
   slug: '/institutes/school',
   name: 'مدارس نخبة حلب الخاصة',
-  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/q_auto:eco/v1737824433/register/images/logos/ur9uzwhvkvqndfinpjnl.png',
+  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_100,q_auto:eco/v1737824433/register/images/logos/ur9uzwhvkvqndfinpjnl.png',
   logoAlt: "لوغو مدارس نخبة حلب الخاصة",
   smallDescription: 'مع النخبة.. حول أمنياتك إلى أهداف',
   description: `

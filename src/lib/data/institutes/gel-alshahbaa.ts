@@ -5,7 +5,7 @@ import { bacTest, bacWorkingPlan } from './shared';
 export const gelAlshahbaaInstitute = {
   slug: '/institutes/alshahba-generation',
   name: 'معهد جيل الشهباء',
-  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/q_auto:eco/v1737824413/register/images/logos/adw251vjxi06ssjojvk8.png',
+  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_100,q_auto:eco/v1737824413/register/images/logos/adw251vjxi06ssjojvk8.png',
   logoAlt: "لوغو معهد جيل الشهباء",
   smallDescription: 'مع النخبة.. حول أمنياتك إلى أهداف',
   description: `

@@ -5,7 +5,7 @@ import { teachersData } from '../teachers';
 export const nukhbehInstitute = {
   slug: '/institutes/institute',
   name: 'مركز النخبة التعليمي',
-  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/q_auto:eco/v1737824408/register/images/logos/qzb9rs1zt2zhou1o1eeo.png',
+  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_100,q_auto:eco/v1737824408/register/images/logos/qzb9rs1zt2zhou1o1eeo.png',
   logoAlt: "لوغو مركز النخبة التعليمي",
   smallDescription: 'مع النخبة.. حول أمنياتك إلى أهداف',
   description: `

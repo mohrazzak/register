@@ -8,7 +8,7 @@ import { teachersData } from '../teachers';
 export const shamsInstitute = {
   slug: '/institutes/shams',
   name: 'معهد شمس',
-  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/q_auto:eco/v1737824418/register/images/logos/iz6uge9xivucugf526wo.png',
+  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_100,q_auto:eco/v1737824418/register/images/logos/iz6uge9xivucugf526wo.png',
   logoAlt: "لوغو معهد شمس",
   smallDescription: 'مع النخبة.. حول أمنياتك إلى أهداف',
   description: `

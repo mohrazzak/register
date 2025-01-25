@@ -18,7 +18,7 @@ import { bacTest, bacWorkingPlan, ninthTest, ninthWorkingPlan } from './shared';
 export const awaelSyriaInistitute = {
   slug: '/institutes/awael-syria',
   name: 'معهد أوائل سوريا',
-  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/q_auto:eco/v1737824402/register/images/logos/hsyy0uqeklc1mbi5wsh0.png',
+  logo: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_100,q_auto:eco/v1737824402/register/images/logos/hsyy0uqeklc1mbi5wsh0.png',
   logoAlt: "لوغو معهد أوائل سوريا",
   smallDescription: 'مع النخبة.. حول أمنياتك إلى أهداف',
   description: `
