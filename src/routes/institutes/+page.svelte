@@ -17,7 +17,7 @@
 </script>
 
 <article class="container">
-	<!-- <PageHeading
+	<PageHeading
 		img={'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824433/register/images/logos/ur9uzwhvkvqndfinpjnl.png'}
 		alt="لوغو أسرة النخبة التعليمية"
 		heading="أهلا بك في معاهد النخبة "
@@ -26,5 +26,5 @@
 
 	<JumpingText heading="يرجى اختيار المعهد" />
 
-	<SelectableBoxes boxes={newBoxes} /> -->
+	<SelectableBoxes boxes={newBoxes} />
 </article>
