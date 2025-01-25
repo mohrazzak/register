@@ -19,14 +19,14 @@
 	const { institute, level } = data;
 
 	const autoplayPlugin = Autoplay({
-		delay: 1600,
+		delay: 3300,
 		stopOnInteraction: false,
 		playOnInit: true,
 		stopOnMouseEnter: true
 	});
 
 	const autoplayPlugin2 = Autoplay({
-		delay: 2100,
+		delay: 4000,
 		stopOnInteraction: false,
 		playOnInit: true,
 		stopOnMouseEnter: true
