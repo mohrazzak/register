@@ -41,13 +41,13 @@
 			opts={{ loop: true, direction: 'rtl' }}
 		>
 			<Carousel.Content>
-				{#each institute.images as e}
+				{#each institute.images as e, i}
 					<Carousel.Item class="w-full">
 						<img
 							src={e}
 							alt="ias"
-							loading="lazy"
-							class="h-[300px] border-primary/25 object-cover"
+							loading={i == 0 ? 'eager' : 'lazy'}
+							class="h-[300px] w-full bg-primary bg-opacity-20 object-cover"
 						/>
 					</Carousel.Item>
 				{/each}

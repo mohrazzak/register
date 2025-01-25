@@ -69,13 +69,13 @@
 			opts={{ loop: true, direction: 'rtl' }}
 		>
 			<Carousel.Content>
-				{#each level.imgs as e}
+				{#each level.imgs as e, i}
 					<Carousel.Item>
 						<img
 							src={e}
 							alt={'slider of school'}
-							loading="lazy"
-							class="h-[400px] w-full border-primary/25 bg-cover object-cover"
+							loading={i == 0 ? 'eager' : 'lazy'}
+							class="h-[400px] w-full bg-primary bg-opacity-20 bg-cover object-cover"
 						/>
 					</Carousel.Item>
 				{/each}
@@ -120,13 +120,13 @@
 					opts={{ loop: true, direction: 'rtl' }}
 				>
 					<Carousel.Content>
-						{#each level.teachers as e}
+						{#each level.teachers as e, i}
 							<Carousel.Item class="w-30 relative rounded-lg ">
 								<img
 									src={e.img}
 									alt="ias"
-									loading="lazy"
-									class="h-full max-h-full w-full rounded-lg border-primary/25 object-cover"
+									loading={i == 0 ? 'eager' : 'lazy'}
+									class="h-full max-h-full w-full rounded-lg bg-primary bg-opacity-20 object-cover"
 								/>
 								<div
 									class="absolute bottom-0 left-0 flex h-24 w-full flex-wrap items-center justify-center rounded-sm bg-stone-800 bg-opacity-80 p-2 text-center text-2xl font-bold text-gray-50 shadow-lg"
