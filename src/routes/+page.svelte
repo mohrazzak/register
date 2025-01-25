@@ -1,5 +1,5 @@
 <script lang="ts">
-	import family from '$lib/assets/images/logos/family-logo.png?enhanced';
+	// import family from '$lib/assets/images/logos/family-logo.png?enhanced';
 	import type { Box } from '$lib/interface/box.interface';
 	import JumpingText from './_components/jumping-text.svelte';
 	import PageHeading from './_components/page-heading.svelte';
@@ -13,7 +13,7 @@
 
 <article class="container">
 	<PageHeading
-		img={family}
+		img={'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824394/register/images/logos/djqrffse5gmgknt0fay5.png'}
 		alt="لوغو اسرة النخبة"
 		heading="أهلا بك في<br>أسرة النخبة التعليمية"
 		subheading="النخبة .. حيث يجتمع الإبداع والتميز والتكامل"

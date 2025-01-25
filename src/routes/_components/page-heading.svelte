@@ -8,7 +8,7 @@
 		subheading
 	}: {
 		subheading: string | undefined;
-		img: Picture | undefined;
+		img: string | undefined;
 		heading: string | undefined;
 		alt: string | undefined;
 	} = $props();
@@ -18,7 +18,7 @@
 	<div
 		class="mx-auto mb-6 h-auto w-2/3 max-w-48 animate-fade-down animate-normal animate-ease-in-out"
 	>
-		<enhanced:img src={img} {alt} />
+		<img src={img} {alt} />
 	</div>
 {/if}
 <section class="animate-fade text-center animate-normal animate-ease-in-out">

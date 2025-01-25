@@ -16,7 +16,7 @@
 				{#if box.img}
 					<div class="flex h-full w-full items-center justify-center p-5">
 						<div class="flex h-28 w-28 flex-col items-center justify-center text-center">
-							<enhanced:img src={box.img} alt={'as'} class="h-28 max-h-full w-full max-w-full" />
+							<img src={box.img} alt={'as'} class="h-28 max-h-full w-full max-w-full" />
 						</div>
 					</div>
 				{:else}

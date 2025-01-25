@@ -1,5 +1,5 @@
 <script lang="ts">
-	import schools from '$lib/assets/images/logos/family-logo.png?enhanced';
+	// import schools from '$lib/assets/images/logos/family-logo.png?enhanced';
 	import { institutes } from '$lib/data';
 	import JumpingText from '../_components/jumping-text.svelte';
 	import PageHeading from '../_components/page-heading.svelte';
@@ -17,8 +17,8 @@
 </script>
 
 <article class="container">
-	<PageHeading
-		img={schools}
+	<!-- <PageHeading
+		img={'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824433/register/images/logos/ur9uzwhvkvqndfinpjnl.png'}
 		alt="لوغو أسرة النخبة التعليمية"
 		heading="أهلا بك في معاهد النخبة "
 		subheading="النخبة .. حيث يجتمع الإبداع والتميز والتكامل"
@@ -26,5 +26,5 @@
 
 	<JumpingText heading="يرجى اختيار المعهد" />
 
-	<SelectableBoxes boxes={newBoxes} />
+	<SelectableBoxes boxes={newBoxes} /> -->
 </article>

@@ -12,7 +12,6 @@
 // Level Images
 
 
-import type { Picture } from '$lib/interface/picture.interface';
 import type { FullBox, } from '$lib/interface/box.interface';
 import { schoolInstitute } from './institutes/school';
 import { awaelSyriaInistitute } from './institutes/awael-syria';
@@ -27,11 +26,11 @@ import { shamsInstitute } from './institutes/shams';
 export interface Institute {
   slug: string;
   name: string;
-  logo: Picture;
+  logo: string;
   logoAlt: string;
   smallDescription: string;
   description: string;
-  images: Picture[]
+  images: string[]
   boxes: FullBox[]
   address: string;
   reception: string;

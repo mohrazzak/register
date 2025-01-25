@@ -1,10 +1,9 @@
 import type { Subject } from '$lib/data/teachers';
-import type { Picture } from './picture.interface';
 
 
 
 interface Teacher {
-  img: Picture;
+  img: string;
   name: string;
   subject: Subject;
 }
@@ -29,12 +28,12 @@ export interface FullBox {
   teachers?: Teacher[]
   workingPlans: WorkingPlan[]
   test?: Test[]
-  imgs: Picture[]
+  imgs: string[]
 }
 
 export interface Box {
   alt?: string
-  img?: Picture;
+  img?: string;
   heading?: string;
   href: string;
 }

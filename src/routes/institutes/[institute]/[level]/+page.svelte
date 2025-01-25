@@ -71,7 +71,7 @@
 			<Carousel.Content>
 				{#each level.imgs as e}
 					<Carousel.Item>
-						<enhanced:img
+						<img
 							src={e}
 							alt={'slider of school'}
 							loading="lazy"
@@ -122,7 +122,7 @@
 					<Carousel.Content>
 						{#each level.teachers as e}
 							<Carousel.Item class="w-30 relative rounded-lg">
-								<enhanced:img
+								<img
 									src={e.img}
 									alt="ias"
 									loading="lazy"

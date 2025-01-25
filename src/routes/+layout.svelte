@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../app.css';
 	import Header from './_components/header.svelte';
-	import bg from '$lib/assets/images/background.jpg?enhanced';
 	import SvgSpinnersRingResize from '~icons/svg-spinners/ring-resize';
 	import { navigating } from '$app/stores';
 	let { children } = $props();
@@ -15,8 +14,8 @@
 	</div>
 {/if}
 
-<enhanced:img
-	src={bg}
+<img
+	src={'https://res.cloudinary.com/dgive1g2g/image/upload/v1737824172/register/images/gxfzqi2bc83wtchibubz.jpg'}
 	alt="Alnukhbeh school"
 	class="fixed left-0 top-0 -z-10 h-full w-full object-cover blur-sm brightness-[.2]"
 />
