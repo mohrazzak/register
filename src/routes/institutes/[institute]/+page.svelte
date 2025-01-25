@@ -12,7 +12,7 @@
 
 	const plugin = Autoplay({
 		delay: 4000,
-		stopOnInteraction: true,
+		stopOnInteraction: false,
 		playOnInit: true,
 		stopOnMouseEnter: true
 	});
@@ -47,7 +47,7 @@
 							src={e}
 							alt="ias"
 							loading={i == 0 ? 'eager' : 'lazy'}
-							class="h-[300px] w-full bg-primary bg-opacity-20 object-cover"
+							class="h-[300px] w-full bg-primary bg-opacity-40 object-cover"
 						/>
 					</Carousel.Item>
 				{/each}

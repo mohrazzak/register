@@ -17,7 +17,7 @@
 <img
 	src={'https://res.cloudinary.com/dgive1g2g/image/upload/w_500,q_auto:low/v1737824172/register/images/gxfzqi2bc83wtchibubz.jpg'}
 	alt="Alnukhbeh school"
-	class="fixed left-0 top-0 -z-10 h-full w-full object-cover blur-sm brightness-[.2]"
+	class="fixed left-0 top-0 -z-10 h-full w-full object-cover blur-sm brightness-[.3]"
 />
 <Header />
 <main class="m-auto max-w-lg pb-4">
