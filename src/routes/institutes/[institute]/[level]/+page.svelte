@@ -26,7 +26,7 @@
 	});
 
 	const autoplayPlugin2 = Autoplay({
-		delay: 4000,
+		delay: 5000,
 		stopOnInteraction: false,
 		playOnInit: true,
 		stopOnMouseEnter: true

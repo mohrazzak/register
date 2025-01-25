@@ -16,7 +16,7 @@
 
 {#if img}
 	<div
-		class="mx-auto mb-6 flex h-auto w-full max-w-48 animate-fade-down items-center justify-center animate-normal animate-ease-in-out"
+		class="mx-auto mb-6 flex h-auto w-[300%] max-w-48 animate-fade-down items-center justify-center animate-normal animate-ease-in-out"
 	>
 		<img src={img} {alt} />
 	</div>

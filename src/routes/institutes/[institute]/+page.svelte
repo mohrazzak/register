@@ -11,7 +11,7 @@
 	const institute = data.institute;
 
 	const plugin = Autoplay({
-		delay: 4000,
+		delay: 5000,
 		stopOnInteraction: false,
 		playOnInit: true,
 		stopOnMouseEnter: true
