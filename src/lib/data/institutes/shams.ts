@@ -61,7 +61,7 @@ export const shamsInstitute = {
 
       ],
       test: bacTest,
-      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824386/register/images/institutes/shams/12/hkvgh0jugepeedtuy2ed.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824383/register/images/institutes/shams/12/qcsteqzdzk93hluu3c8f.jpg'],
+      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824386/register/images/institutes/shams/12/hkvgh0jugepeedtuy2ed.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824383/register/images/institutes/shams/12/qcsteqzdzk93hluu3c8f.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824392/register/images/institutes/shams/9/tvcgrtwafuecsy3ceign.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824388/register/images/institutes/shams/9/dw2jqyt6jlkinwrjhtps.jpg'],
       workingPlans: bacWorkingPlan,
     },
     {
@@ -108,7 +108,7 @@ export const shamsInstitute = {
 
 
       ],
-      imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824392/register/images/institutes/shams/9/tvcgrtwafuecsy3ceign.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824388/register/images/institutes/shams/9/dw2jqyt6jlkinwrjhtps.jpg'],
+      imgs: [],
       workingPlans: ninthWorkingPlan
     },
   ]
