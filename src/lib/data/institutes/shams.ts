@@ -75,7 +75,6 @@ export const shamsInstitute = {
         teachersData.adeebAlsayed,
 
         // py chem
-        teachersData.mehdiBasteka,
 
 
         // science
