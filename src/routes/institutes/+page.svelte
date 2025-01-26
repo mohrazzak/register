@@ -1,5 +1,4 @@
 <script lang="ts">
-	// import schools from '$lib/assets/images/logos/family-logo.png?enhanced';
 	import { institutes } from '$lib/data';
 	import JumpingText from '../_components/jumping-text.svelte';
 	import PageHeading from '../_components/page-heading.svelte';

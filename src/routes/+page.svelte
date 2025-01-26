@@ -1,5 +1,4 @@
 <script lang="ts">
-	// import family from '$lib/assets/images/logos/family-logo.png?enhanced';
 	import type { Box } from '$lib/interface/box.interface';
 	import JumpingText from './_components/jumping-text.svelte';
 	import PageHeading from './_components/page-heading.svelte';

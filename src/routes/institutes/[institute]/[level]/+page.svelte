@@ -74,7 +74,6 @@
 						<img
 							src={e}
 							alt={'slider of school'}
-							loading={i == 0 ? 'eager' : 'lazy'}
 							class="h-[400px] w-full bg-primary bg-opacity-40 bg-cover object-cover"
 						/>
 					</Carousel.Item>
@@ -125,7 +124,6 @@
 								<img
 									src={e.img}
 									alt="ias"
-									loading={i == 0 ? 'eager' : 'lazy'}
 									class="h-full max-h-full w-full rounded-lg bg-primary bg-opacity-40 object-cover"
 								/>
 								<div

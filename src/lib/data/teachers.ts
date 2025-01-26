@@ -1,39 +1,4 @@
-// // Teachers
-// import abdImage from '$lib/assets/images/teachers/abdalwahab_taskya.png?enhanced';
-// import kamelKadiImage from '$lib/assets/images/teachers/kamel_kadi.jpeg?enhanced';
-// import jamalSheikhDiabImage from '$lib/assets/images/teachers/jamal_sheikh_diab.jpeg?enhanced';
-// import salwa from '$lib/assets/images/teachers/salwa_abo_galon.png?enhanced';
-// import basharGamalAldeen from '$lib/assets/images/teachers/basharGamalAldeen.png?enhanced';
-// import hussamDwick from '$lib/assets/images/teachers/hussamDwick.png?enhanced';
-// import alaaAttar from '$lib/assets/images/teachers/alaa_attar.jpg?enhanced';
-// import safwanIdress from '$lib/assets/images/teachers/safwanIdress.png?enhanced';
-// import mohammadFarek from '$lib/assets/images/teachers/mohammadFarek.png?enhanced';
-// import samerSleman from '$lib/assets/images/teachers/samerSleman.png?enhanced';
-// import abdalazizZakaria from '$lib/assets/images/teachers/abdalaziz_zakaria.jpg?enhanced';
-// import mohammadTabbakh from '$lib/assets/images/teachers/mohammad_Tabbakh.png?enhanced';
-// import hasanNaasan from '$lib/assets/images/teachers/hasan_naasan.png?enhanced';
-// import ahmadOthman from '$lib/assets/images/teachers/ahmad_othman.jpg?enhanced';
-// import alaaArab from '$lib/assets/images/teachers/alaa_arab.jpg?enhanced';
-// import adeebZohor from '$lib/assets/images/teachers/adeebZohor.png?enhanced';
-// import anasDrgham from '$lib/assets/images/teachers/anas_drgham.jpg?enhanced';
-// import ihabGamal from '$lib/assets/images/teachers/ihab_gamal.jpg?enhanced';
-// import mahmodDarwish from '$lib/assets/images/teachers/mahmoud_darwish.jpg?enhanced';
-// import othmanAlmohamad from '$lib/assets/images/teachers/othman_almohamad.jpg?enhanced';
-// import ramezAlsaeed from '$lib/assets/images/teachers/ramez_Saeed.jpg?enhanced';
-// import waseemShayah from '$lib/assets/images/teachers/waseem_shayah.jpg?enhanced';
-// import salemGazeh from '$lib/assets/images/teachers/salem_gazeh.jpg?enhanced';
-// import baraaSreo from '$lib/assets/images/teachers/baraa_sreo.jpg?enhanced';
-// import mohamadAmenSedo from '$lib/assets/images/teachers/mohamadAmenSedo.png?enhanced';
-// import sobhiSawas from '$lib/assets/images/teachers/sobhi_sawas.jpeg?enhanced';
-// import ahmadHafez from '$lib/assets/images/teachers/ahmad_hafez.jpg?enhanced';
-// import anasNajjar from '$lib/assets/images/teachers/anas_najjar.jpg?enhanced';
-// import ferasSayedOmar from '$lib/assets/images/teachers/feras_sayed_omar.jpg?enhanced';
-// import hazemGhnaimi from '$lib/assets/images/teachers/hazem_ghnaimi.jpg?enhanced';
-// import jalalAddas from '$lib/assets/images/teachers/jalal_addas.jpg?enhanced';
 
-
-
-// import mohannadAshor from '$lib/assets/images/teachers/mohannadAshour.png?enhanced';
 
 
 

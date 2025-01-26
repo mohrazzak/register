@@ -1,14 +1,3 @@
-// import awael1 from '$lib/assets/images/institutes/awael-syria/outer.jpg?enhanced'
-// import awael12 from '$lib/assets/images/institutes/awael-syria/IMG_5250.jpg?enhanced'
-// import awael13 from '$lib/assets/images/institutes/awael-syria/IMG_5256.jpg?enhanced'
-// import awael from '$lib/assets/images/logos/nukhbeh-awael.png?enhanced';
-
-// import twelve1 from '$lib/assets/images/institutes/awael-syria/12/IMG_5238.jpg?enhanced';
-// import twelve12 from '$lib/assets/images/institutes/awael-syria/12/IMG_5242.jpg?enhanced';
-// import twelve13 from '$lib/assets/images/institutes/awael-syria/12/IMG_5243.jpg?enhanced';
-// import twelve14 from '$lib/assets/images/institutes/awael-syria/12/exam.jpg?enhanced';
-// import twelve15 from '$lib/assets/images/institutes/awael-syria/12/in_class.jpg?enhanced';
-
 
 
 import { teachersData } from '../teachers';
