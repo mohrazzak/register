@@ -22,7 +22,7 @@
 	<PageHeading
 		img={institute?.logo}
 		alt={institute?.logoAlt}
-		heading={institute?.name}
+		heading={'الرئيسية'}
 		subheading={institute?.smallDescription}
 	/>
 
