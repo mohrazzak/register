@@ -12,7 +12,7 @@ export const gelAlshahbaaInstitute = {
       يسعى معهد جيل الشهباء إلى تقديم تعليم متميز يساعد الطلاب على تحقيق النجاح في جميع المجالات. 
       يتميز المعهد بروح المنافسة الإيجابية وتنظيم البيئة التعليمية، مما يساهم في تعزيز الإبداع والإصرار لدى الطلاب للوصول إلى أعلى المستويات.
     `,
-  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1738744835/register/images/institutes/gen-alshahba/r418yr5qj5s9lnyiuarp.png', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824250/register/images/institutes/gen-alshahba/javfrib19neu98ilyayc.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824211/register/images/institutes/gen-alshahba/e1zeougeugdw2pdaohqy.jpg',],
+  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1738744835/register/images/institutes/gen-alshahba/r418yr5qj5s9lnyiuarp.png', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824250/register/images/institutes/gen-alshahba/javfrib19neu98ilyayc.jpg',],
   address: 'الفرقان - أمام كلية الاقتصاد.',
   reception: '0989557706',
   boxes: [
@@ -31,6 +31,7 @@ export const gelAlshahbaaInstitute = {
 
         // phy
         teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab,
+        teachersData.mohammadAmeenSeedo,
 
         // Chem
 
