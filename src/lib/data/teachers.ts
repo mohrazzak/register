@@ -81,7 +81,7 @@ export const teachersData: TeachersData = {
   othmanAlMohammad: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824636/register/images/teachers/prfbdlpj3hg8vux5vjbl.jpg', subject: 'العلوم', name: "عثمان المحمد" },
   ramezAlSaeed: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824629/register/images/teachers/a3xqakjbqkumekau5agf.jpg', subject: 'اللغة العربية', name: "رامز السعيد" },
   sobhiSawwas: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824629/register/images/teachers/rsqcpzvhecf8ug36ggtc.jpg', subject: 'اللغة العربية', name: "صبحي سواس" },
-  hasanNaasan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824515/register/images/teachers/janpjpfl2rpmbwmp6dmx.jpg', subject: 'اللغة الإنجليزية', name: "حسن نعسان" },
+  hasanNaasan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738742908/register/images/teachers/ltya5pwsuxtswynyc14r.jpg', subject: 'اللغة الإنجليزية', name: "حسن نعسان" },
   ihabGamal: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824576/register/images/teachers/crjqyyskld1ugh5ruczj.jpg', subject: 'التربية الدينية', name: "إيهاب جمال" },
   mohammadTabbakh: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824587/register/images/teachers/nj3k8e4h9dxdooms2wgo.jpg', subject: 'الفيزياء', name: "محمد طبّاخ" },
   mohammadAmeenSeedo: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737881888/kt7eta9xg9xsa9coeskx_c_crop_h_650_a4nmyg.jpg', subject: 'الفيزياء', name: "محمد أمين سيدو" },
