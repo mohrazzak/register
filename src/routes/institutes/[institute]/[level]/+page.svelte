@@ -55,7 +55,7 @@
 	/>
 
 	<p
-		class="my-4 animate-fade-left whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200 animate-once"
+		class="text-md my-4 animate-fade-left whitespace-pre-line text-justify leading-8 text-gray-200 animate-once"
 	>
 		{level.description}
 	</p>
@@ -93,7 +93,7 @@
 
 			<ul class="my-2 list-disc py-2 text-justify">
 				{#each level.test as t}
-					<li class="mb-3 text-base leading-loose text-gray-200" class:font-bold={t.bold}>
+					<li class="text-md mb-3 leading-loose text-gray-200" class:font-bold={t.bold}>
 						{@html t.text}
 					</li>
 				{/each}

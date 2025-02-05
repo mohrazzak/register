@@ -27,7 +27,7 @@
 	/>
 
 	<p
-		class="animate-fade-left whitespace-pre-line text-justify text-base leading-8 tracking-wider text-gray-200 animate-once"
+		class="text-md animate-fade-left whitespace-pre-line text-justify leading-8 text-gray-200 animate-once"
 	>
 		{institute?.description}
 	</p>
