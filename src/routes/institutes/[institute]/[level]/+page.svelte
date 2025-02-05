@@ -193,7 +193,7 @@
 
 		<ul class="list-disc py-2 text-justify">
 			{#each level.workingPlans as wk}
-				<li class="py-2 text-base leading-loose tracking-wider text-gray-200">
+				<li class="text-md py-2 leading-loose text-gray-200">
 					{#if wk.title}
 						<div class="mb-2 w-fit border-b-2 border-secondary py-1 text-center font-extrabold">
 							{wk.title}
