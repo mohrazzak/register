@@ -54,7 +54,10 @@ export const gelAlshahbaaInstitute = {
         teachersData.tariqSayedAli,
 
         // rel
-        teachersData.ihabGamal
+        teachersData.ihabGamal,
+
+        // fr
+        teachersData.mustafaRslan
 
 
       ],
@@ -81,6 +84,7 @@ export const gelAlshahbaaInstitute = {
 
         // phy
         teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab,
+        teachersData.mohammadAmeenSeedo,
 
         // Chem
 
@@ -102,8 +106,6 @@ export const gelAlshahbaaInstitute = {
 
         teachersData.tariqSayedAli,
 
-        // rel
-        teachersData.ihabGamal
 
 
       ],
