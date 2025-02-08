@@ -104,7 +104,7 @@ export const teachersData: TeachersData = {
   safiKabbani: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739002088/register/images/teachers/tgo0fcac7pyn8axxqrn8.jpg', subject: 'اللغة الفرنسية', name: "صافي قباني" },
   mjdNahlawy: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739002089/register/images/teachers/ppclecceejtkue3suagc.jpg', subject: 'اللغة الفرنسية', name: "مجد نحلاوي" },
   mohammadNourAldeen: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824632/register/images/teachers/rwp0xegdanbmuqe6xahg.jpg', subject: 'تاريخ و جغرافيا', name: "محمد نور الدين" },
-  wajeehDwidry: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824632/register/images/teachers/rwp0xegdanbmuqe6xahg.jpg', subject: 'اللغة الإنجليزية', name: 'وجيه دويدري' },
+  wajeehDwidry: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739003086/register/images/teachers/bsqopzo9heauwwilbx1i.jpg', subject: 'اللغة الإنجليزية', name: 'وجيه دويدري' },
   ismaelSafaia: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824632/register/images/teachers/rwp0xegdanbmuqe6xahg.jpg', subject: 'اللغة الفرنسية', name: 'إسماعيل  صفايا' },
   mustafaRslan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744162/register/images/teachers/wo73f05qpjaphclqpnsz.png', subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
   sohaybSarmini: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744242/register/images/teachers/fcit4ayz7ejjtkauj94t.jpg', subject: 'الكيمياء', name: 'صهيب سرميني' },
