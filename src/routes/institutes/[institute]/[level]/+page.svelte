@@ -123,7 +123,7 @@
 							<Carousel.Item class="w-30 relative rounded-lg">
 								<img
 									src={e.img}
-									alt="ias"
+									alt="صورة للمدرس"
 									class="h-full max-h-full w-full rounded-lg bg-primary bg-opacity-40 object-cover"
 								/>
 								<div
