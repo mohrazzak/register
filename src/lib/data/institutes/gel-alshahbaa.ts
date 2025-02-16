@@ -12,7 +12,11 @@ export const gelAlshahbaaInstitute = {
       يسعى معهد جيل الشهباء إلى تقديم تعليم متميز يساعد الطلاب على تحقيق النجاح في جميع المجالات. 
       يتميز المعهد بروح المنافسة الإيجابية وتنظيم البيئة التعليمية، مما يساهم في تعزيز الإبداع والإصرار لدى الطلاب للوصول إلى أعلى المستويات.
     `,
-  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1737824250/register/images/institutes/gen-alshahba/javfrib19neu98ilyayc.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744835/register/images/institutes/gen-alshahba/r418yr5qj5s9lnyiuarp.png', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646149/register/images/institutes/gen-alshahba/gfjvaoxcqeiizfnsbms4.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646150/register/images/institutes/gen-alshahba/xkwr0yht4eekyg3bkvet.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646152/register/images/institutes/gen-alshahba/i3ojsqpy4hra58rfojdc.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646149/register/images/institutes/gen-alshahba/b55zxnku8admhxxun8lz.jpg'],
+  images: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1737824250/register/images/institutes/gen-alshahba/javfrib19neu98ilyayc.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744835/register/images/institutes/gen-alshahba/r418yr5qj5s9lnyiuarp.png', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646149/register/images/institutes/gen-alshahba/gfjvaoxcqeiizfnsbms4.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646150/register/images/institutes/gen-alshahba/xkwr0yht4eekyg3bkvet.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646152/register/images/institutes/gen-alshahba/i3ojsqpy4hra58rfojdc.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646149/register/images/institutes/gen-alshahba/b55zxnku8admhxxun8lz.jpg',
+
+
+    'https://res.cloudinary.com/dgive1g2g/image/upload/v1739645446/register/images/institutes/shams/jic6asqnvd3rrk60x9q2.jpg'
+  ],
   address: 'الفرقان - أمام كلية الاقتصاد.',
   reception: '0989557706',
   boxes: [
