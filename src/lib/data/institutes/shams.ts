@@ -55,7 +55,10 @@ export const shamsInstitute = {
         teachersData.basharGamalAldeen,
 
         // rele
-        teachersData.ihabGamal
+        teachersData.ihabGamal,
+
+        //fr
+        teachersData.mustafaRslan,
 
 
 
@@ -90,7 +93,8 @@ export const shamsInstitute = {
         // En
         teachersData.salyKayyali,
         teachersData.mohsenKadi,
-
+        //fr
+        teachersData.mustafaRslan,
 
         // fr
         teachersData.ammarKhdry,
