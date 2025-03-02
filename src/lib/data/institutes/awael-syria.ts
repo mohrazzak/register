@@ -44,7 +44,7 @@ export const awaelSyriaInistitute = {
 
         // en 
         teachersData.hasanNaasan,
-
+teachersData.basharGamalAldeen,
 
         // fr
         teachersData.alaaAttar,
