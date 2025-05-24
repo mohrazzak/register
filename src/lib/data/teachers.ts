@@ -77,7 +77,7 @@ export const teachersData: TeachersData = {
   anasDrgham: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824529/register/images/teachers/tqq9qxepbns2qudl9bxz.jpg', subject: 'الرياضيات', name: "أنس درغام" },
   anasNajjar: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824551/register/images/teachers/xmhclghylxh0pyuk83kk.jpg', subject: 'الفيزياء', name: "أنس نجار" },
   alaaArab: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824492/register/images/teachers/k0bta0um16uxyggz6hzf.jpg', subject: 'الفيزياء', name: "علاء عرب" },
-  younesDsouki: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744499/register/images/teachers/q8jdg0ibmupcy1kopufm.jpg', subject: 'الفيزياء', name: "يونس دسوقي" },
+  younesDsouki: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744499/register/images/teachers/q8jdg0ibmupcy1kopufm.jpg', subject: 'الفيزياء', name: "يونس الدسوقي" },
   mahmoudDarwish: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824606/register/images/teachers/pxbs8tpiuskcadwdz5sw.jpg', subject: 'الكيمياء', name: "محمود درويش" },
   mahmoudHreh: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744427/register/images/teachers/qzctk0vasqxp3axtiqld.jpg', subject: 'الكيمياء', name: "محمود حرح" },
   ahmadOthman: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824468/register/images/teachers/qjpz2tdfnrm3ppgzwt4i.jpg', subject: 'العلوم', name: "أحمد عثمان" },
