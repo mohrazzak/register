@@ -3,7 +3,8 @@
 
 
 
-export type Subject = 'الرياضيات' | "الفيزياء" | "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "العلوم" | "تاريخ و جغرافيا" | "الفيزياء و الكيمياء";
+export type Subject = 'الرياضيات' | "الفيزياء" |"الوطنية"| "الكيمياء" | "اللغة العربية" | "اللغة الإنجليزية" | "اللغة الفرنسية" | "التربية الدينية" | "العلوم" | "تاريخ و جغرافيا" | "الفيزياء و الكيمياء";
+
 
 
 type TeacherNames =
@@ -52,8 +53,10 @@ type TeacherNames =
   | "ferasAlsayyedOmar"
   | "safiKabbani"
   | "mjdNahlawy"
-  | "mohammadNourAldeen" | "wajeehDwidry" | "ismaelSafaia" | "mustafaRslan" | "sohaybSarmini" | "zakariaRajabBasha" | "baraaSreo";
-type TeachersData = {
+  | "mohammadNourAldeen" | "wajeehDwidry" | "ismaelSafaia" | "mustafaRslan" | "sohaybSarmini" | "zakariaRajabBasha" | "baraaSreo" | "ahmadTwish" | "mohammadSarhan" | "mohammadTalalini" |
+   "ahmadKarzon" | "mustafaAntakly" | "mustafaRaslan" | "FerasMgadmi" |
+    "khaledAljasem"  | "mahmoudAlkhalaf" | "ahmadMutlaq" | "mohammadIssa";
+type TeachersData = { 
   [key in TeacherNames]: { img: string, subject: Subject, name: string }
 }
 
@@ -110,5 +113,25 @@ export const teachersData: TeachersData = {
   sohaybSarmini: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744242/register/images/teachers/fcit4ayz7ejjtkauj94t.jpg', subject: 'الكيمياء', name: 'صهيب سرميني' },
   zakariaRajabBasha: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739650916/register/images/teachers/dtswsw33otsfqcro8nu2.jpg', subject: 'العلوم', name: 'زكريا رجب باشا' },
   baraaSreo: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824509/register/images/teachers/phbyeby7eoddsbswxys3.jpg', subject: 'اللغة العربية', name: 'براء سريو' },
+
+
+  khaledAljasem: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الرياضيات', name: 'خالد الجاسم' },
+  mohammadSarhan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الرياضيات', name: 'محمد سرحان' },
+
+  ahmadMutlaq: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الفيزياء', name: 'أحمد مطلق' },
+  mohammadTalalini: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الفيزياء', name: 'محمد تلاليني' },
+  mahmoudAlkhalaf: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الفيزياء', name: 'محمود الخلف' },
+
+
+  ahmadTwish: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الإنجليزية', name: 'أحمد طويش' },
+
+  ahmadKarzon: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'أحمد كرزون' },
+  mustafaAntakly: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'مصطفى انطكلي' },
+  mustafaRaslan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
+  FerasMgadmi: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'فراس مجدمي' },
+
+  mohammadIssa: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الوطنية', name: 'محمد العيسى' },
 };
+
+
 

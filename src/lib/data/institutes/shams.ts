@@ -23,45 +23,57 @@ export const shamsInstitute = {
     {
       heading: 'البكالوريا',
       href: '/institutes/shams/baccalaureate',
-      description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.', teachers: [
-        /// math   
+      description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
+      teachers: [
+        teachersData.jamalSheikhDiab,
+        teachersData.safwanIdress,
+        teachersData.abdalazizZakaria,
         teachersData.anasDrgham,
-        teachersData.waseemShayyah,
+        teachersData.khaledAljasem,
         teachersData.mohammadFarek,
+        teachersData.mohammadSarhan,
+        teachersData.waseemShayyah,
 
-        // py
 
+        // en 
+        teachersData.mohammadHilal,
+        teachersData.ahmadMutlaq,
+        teachersData.anasNajjar,
+        teachersData.mahmoudAlkhalaf,
+        teachersData.younesDsouki,
         teachersData.mohammadAmeenSeedo,
-        teachersData.mohammadTabbakh,
+        teachersData.mohammadTalalini,
 
-        // chem
+
+
+        teachersData.mahmoudDarwish,
         teachersData.samerSleman,
         teachersData.mahmoudHreh,
+        teachersData.hazemGhnaimi,
+        teachersData.sohaybSarmini,
 
-
-
-        // science
         teachersData.kamelKadi,
+        teachersData.ahmadOthman,
         teachersData.othmanAlMohammad,
-
-
-        // ar
+        teachersData.zakariaRajabBasha,
 
         teachersData.ramezAlSaeed,
         teachersData.hussamDwick,
 
-
-        // en
+        teachersData.hasanNaasan,
+        teachersData.tariqSayedAli,
+        teachersData.salemGazeh,
         teachersData.basharGamalAldeen,
+        teachersData.ahmadTwish,
 
-        // rele
-        teachersData.ihabGamal,
-
-        //fr
+        teachersData.alaaAttar,
+        teachersData.ahmadKarzon,
+        teachersData.mustafaAntakly,
         teachersData.mustafaRslan,
+        teachersData.FerasMgadmi,
 
-
-
+        teachersData.ihabGamal,
+        teachersData.mohammadIssa,
       ],
       test: bacTest,
       imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824386/register/images/institutes/shams/12/hkvgh0jugepeedtuy2ed.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824383/register/images/institutes/shams/12/qcsteqzdzk93hluu3c8f.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824392/register/images/institutes/shams/9/tvcgrtwafuecsy3ceign.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824388/register/images/institutes/shams/9/dw2jqyt6jlkinwrjhtps.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739645561/register/images/institutes/shams/12/nrnqhwoay1nd0ktkivj9.jpg'],

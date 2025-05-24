@@ -26,44 +26,55 @@ export const gelAlshahbaaInstitute = {
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
       imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737827131/register/images/institutes/gen-alshahba/12/fjsdofd1x8dmtnnv70ob.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738745155/register/images/institutes/gen-alshahba/12/s9hrrtwq6p7parhd2aij.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824203/register/images/institutes/gen-alshahba/12/y9zgrnyll8wgp5of1rwh.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824210/register/images/institutes/gen-alshahba/12/gpjeo0qeawrv164jrrmi.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738745153/register/images/institutes/gen-alshahba/12/ldrjpqdwxnyq2kbewuho.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824205/register/images/institutes/gen-alshahba/12/axefrgsw2avpazgvlcey.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646320/register/images/institutes/gen-alshahba/12/ayao116rdud0jxojwg44.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646822/register/images/institutes/gen-alshahba/12/awd4qfnx19rldrqodfsi.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646821/register/images/institutes/gen-alshahba/12/xtci0drilm2fjcufwyhd.jpg'],
       teachers: [
-
-        // Math
+        teachersData.jamalSheikhDiab,
+        teachersData.safwanIdress,
         teachersData.abdalazizZakaria,
         teachersData.anasDrgham,
+        teachersData.khaledAljasem,
+        teachersData.mohammadFarek,
+        teachersData.mohammadSarhan,
         teachersData.waseemShayyah,
 
 
-        // phy
-        teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab,
+        // en 
+        teachersData.mohammadHilal,
+        teachersData.ahmadMutlaq,
+        teachersData.anasNajjar,
+        teachersData.mahmoudAlkhalaf,
+        teachersData.younesDsouki,
         teachersData.mohammadAmeenSeedo,
+        teachersData.mohammadTalalini,
 
-        // Chem
+
 
         teachersData.mahmoudDarwish,
+        teachersData.samerSleman,
+        teachersData.mahmoudHreh,
+        teachersData.hazemGhnaimi,
+        teachersData.sohaybSarmini,
 
+        teachersData.kamelKadi,
+        teachersData.ahmadOthman,
+        teachersData.othmanAlMohammad,
+        teachersData.zakariaRajabBasha,
 
+        teachersData.ramezAlSaeed,
+        teachersData.hussamDwick,
 
-        // Science 
-        teachersData.kamelKadi, teachersData.ahmadOthman,
-
-
-
-        // Ar
-        teachersData.ramezAlSaeed, teachersData.sobhiSawwas,
-
-
-
-        // En
-
+        teachersData.hasanNaasan,
         teachersData.tariqSayedAli,
+        teachersData.salemGazeh,
+        teachersData.basharGamalAldeen,
+        teachersData.ahmadTwish,
 
-        // rel
+        teachersData.alaaAttar,
+        teachersData.ahmadKarzon,
+        teachersData.mustafaAntakly,
+        teachersData.mustafaRslan,
+        teachersData.FerasMgadmi,
+
         teachersData.ihabGamal,
-
-        // fr
-        teachersData.mustafaRslan
-
-
+        teachersData.mohammadIssa,
       ],
       test: bacTest,
       workingPlans: bacWorkingPlan,

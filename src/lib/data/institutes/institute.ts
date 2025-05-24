@@ -21,40 +21,55 @@ export const nukhbehInstitute = {
       href: '/institutes/institute/baccalaureate',
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
       teachers: [
-
-        // math
         teachersData.jamalSheikhDiab,
+        teachersData.safwanIdress,
         teachersData.abdalazizZakaria,
         teachersData.anasDrgham,
+        teachersData.khaledAljasem,
+        teachersData.mohammadFarek,
+        teachersData.mohammadSarhan,
+        teachersData.waseemShayyah,
 
 
-        // phy
-        teachersData.jalalAddas,
+        // en 
+        teachersData.mohammadHilal,
+        teachersData.ahmadMutlaq,
         teachersData.anasNajjar,
-        teachersData.alaaArab,
+        teachersData.mahmoudAlkhalaf,
         teachersData.younesDsouki,
+        teachersData.mohammadAmeenSeedo,
+        teachersData.mohammadTalalini,
 
-        // Chem
+
+
         teachersData.mahmoudDarwish,
+        teachersData.samerSleman,
         teachersData.mahmoudHreh,
+        teachersData.hazemGhnaimi,
+        teachersData.sohaybSarmini,
 
+        teachersData.kamelKadi,
+        teachersData.ahmadOthman,
+        teachersData.othmanAlMohammad,
+        teachersData.zakariaRajabBasha,
 
-        // Science
-        teachersData.kamelKadi, teachersData.ahmadOthman, teachersData.othmanAlMohammad,
-
-
-
-        // Ar
         teachersData.ramezAlSaeed,
         teachersData.hussamDwick,
-        teachersData.sobhiSawwas,
 
-        // en
         teachersData.hasanNaasan,
-        // fr
+        teachersData.tariqSayedAli,
+        teachersData.salemGazeh,
+        teachersData.basharGamalAldeen,
+        teachersData.ahmadTwish,
+
         teachersData.alaaAttar,
-        // rele
-        teachersData.ihabGamal
+        teachersData.ahmadKarzon,
+        teachersData.mustafaAntakly,
+        teachersData.mustafaRslan,
+        teachersData.FerasMgadmi,
+
+        teachersData.ihabGamal,
+        teachersData.mohammadIssa,
       ],
       imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/v1738745770/register/images/institutes/institute/12/l04ljmg1zect3loss738.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739650098/register/images/institutes/institute/12/lzhwc7lzq2k0vbkyfuqw.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738745767/register/images/institutes/institute/12/ubdhrgqwgsrc2mlucrmb.jpg'],
       test: bacTest,

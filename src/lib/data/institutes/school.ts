@@ -29,46 +29,55 @@ export const schoolInstitute: Institute = {
       description: 'البكالوريا ليست مجرد مرحلة دراسية، بل هي البوابة لتحقيق الأحلام والطموحات الأكاديمية. في مدارس نخبة حلب، نقدم تعليمًا متميزًا يواكب تطلعات الطلاب نحو التفوق. نولي أهمية خاصة لمتابعة تطور كل طالب بشكل فردي، ونعتمد على تقنيات تعليمية مبتكرة تعزز الفهم والقدرة على حل المشكلات. بالإضافة إلى ذلك، نقدم بيئة تعليمية حديثة مجهزة بأفضل الوسائل لتحقيق النجاح، مما يجعلنا الشريك الأمثل لبناء مستقبل مشرق.',
       imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824310/register/images/institutes/school/12/delrvqbsfdluhbgolwny.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824297/register/images/institutes/school/12/z66nhczo5j2vnaf6l5bt.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824284/register/images/institutes/school/12/tneenf1mzdphx7x5vuwf.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824287/register/images/institutes/school/12/ff8jyb9w5pdpztynwyw8.jpg'],
       teachers: [
+        teachersData.jamalSheikhDiab,
+        teachersData.safwanIdress,
+        teachersData.abdalazizZakaria,
+        teachersData.anasDrgham,
+        teachersData.khaledAljasem,
+        teachersData.mohammadFarek,
+        teachersData.mohammadSarhan,
+        teachersData.waseemShayyah,
 
-        // Math
-        teachersData.jamalSheikhDiab, teachersData.abdalazizZakaria, teachersData.safwanIdress, teachersData.anasDrgham, teachersData.waseemShayyah, teachersData.mohammadFarek,
 
-        // Physics
-        teachersData.jalalAddas, teachersData.anasNajjar, teachersData.alaaArab, teachersData.mohammadAmeenSeedo,
+        // en 
+        teachersData.mohammadHilal,
+        teachersData.ahmadMutlaq,
+        teachersData.anasNajjar,
+        teachersData.mahmoudAlkhalaf,
+        teachersData.younesDsouki,
+        teachersData.mohammadAmeenSeedo,
+        teachersData.mohammadTalalini,
 
-        // Chemistry
+
 
         teachersData.mahmoudDarwish,
         teachersData.samerSleman,
-        teachersData.sohaybSarmini,
+        teachersData.mahmoudHreh,
         teachersData.hazemGhnaimi,
+        teachersData.sohaybSarmini,
 
-        // Science
         teachersData.kamelKadi,
         teachersData.ahmadOthman,
         teachersData.othmanAlMohammad,
         teachersData.zakariaRajabBasha,
 
-        // Arabic
         teachersData.ramezAlSaeed,
         teachersData.hussamDwick,
-        teachersData.sobhiSawwas,
-        teachersData.baraaSreo,
 
-
-        // EN
         teachersData.hasanNaasan,
-        teachersData.basharGamalAldeen,
+        teachersData.tariqSayedAli,
         teachersData.salemGazeh,
-        teachersData.wajeehDwidry,
+        teachersData.basharGamalAldeen,
+        teachersData.ahmadTwish,
 
-
-        // FR
         teachersData.alaaAttar,
+        teachersData.ahmadKarzon,
+        teachersData.mustafaAntakly,
+        teachersData.mustafaRslan,
+        teachersData.FerasMgadmi,
 
-        // Releg
         teachersData.ihabGamal,
-
+        teachersData.mohammadIssa,
       ],
       workingPlans: bacWorkingPlan,
       test: bacTest
