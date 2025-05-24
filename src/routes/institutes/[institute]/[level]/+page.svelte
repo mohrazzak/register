@@ -149,7 +149,7 @@
 						>
 							<h3 class="mb-2">اعضاء الهيئة التدريسية</h3>
 							<div class="rounded-sm bg-primary px-2 py-2 font-bold text-gray-50">
-								{institute.name} - {level.heading}
+								{level.heading}
 							</div>
 						</Dialog.Title>
 						<Dialog.Description>
