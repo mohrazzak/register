@@ -69,7 +69,6 @@ export const shamsInstitute = {
         teachersData.alaaAttar,
         teachersData.ahmadKarzon,
         teachersData.mustafaAntakly,
-        teachersData.mustafaRslan,
         teachersData.FerasMgadmi,
 
         teachersData.ihabGamal,

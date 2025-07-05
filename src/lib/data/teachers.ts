@@ -100,7 +100,7 @@ export const teachersData: TeachersData = {
   adeebZohor: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739651898/register/images/teachers/lj5m40qcxx5jrjj6edvj.jpg', subject: 'تاريخ و جغرافيا', name: "أديب زهور" },
   waseemShayyah: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824637/register/images/teachers/winv4zicv8yqjscrqnxr.jpg', subject: 'الرياضيات', name: "وسيم شياح" },
   tariqSayedAli: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738747220/register/images/teachers/t0ypcfomnhlclxsckhxo.jpg', subject: 'اللغة الإنجليزية', name: "طارق السيد علي" },
-  mohammadHilal: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739971300/register/images/teachers/xdovfhrjblpnwcm2eqg5.jpg', subject: 'الفيزياء', name: "محمد هلال" },
+  mohammadHilal: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1751712863/mohamad_hilal_wpp37x.jpg', subject: 'الفيزياء', name: "محمد هلال" },
   mohannadAshor: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739002093/register/images/teachers/yidrvqavq2g9fd0axx9y.jpg', subject: 'اللغة الإنجليزية', name: "مهند عاشور" },
   salemGazeh: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737881890/cj6lciiymxf0sjlpefup_c_crop_h_1000_wnkweg.jpg', subject: 'اللغة الإنجليزية', name: "سالم جازة" },
   ferasAlsayyedOmar: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824576/register/images/teachers/cqoqb4c7s0hizi5ibkz0.jpg', subject: 'الرياضيات', name: "فراس السيد عمر" },
@@ -116,16 +116,16 @@ export const teachersData: TeachersData = {
 
 
   khaledAljasem: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الرياضيات', name: 'خالد الجاسم' },
-  mohammadSarhan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الرياضيات', name: 'محمد سرحان' },
+  mohammadSarhan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1751712862/mohamad_sarhan_yrkuvp.jpg', subject: 'الرياضيات', name: 'محمد سرحان' },
 
   ahmadMutlaq: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الفيزياء', name: 'أحمد مطلق' },
-  mohammadTalalini: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الفيزياء', name: 'محمد تلاليني' },
+  mohammadTalalini: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1751712862/mohamad_tlalini_jkufuf.jpg', subject: 'الفيزياء', name: 'محمد تلاليني' },
   mahmoudAlkhalaf: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الفيزياء', name: 'محمود الخلف' },
 
 
   ahmadTwish: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الإنجليزية', name: 'أحمد طويش' },
 
-  ahmadKarzon: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'أحمد كرزون' },
+  ahmadKarzon: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1751712862/ahmad_karzon_eiryjr.jpg', subject: 'اللغة الفرنسية', name: 'أحمد كرزون' },
   mustafaAntakly: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'مصطفى انطكلي' },
   mustafaRaslan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
   FerasMgadmi: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'فراس مجدمي' },
