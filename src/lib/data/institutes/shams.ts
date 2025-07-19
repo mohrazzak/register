@@ -95,7 +95,6 @@ export const shamsInstitute = {
 
 				// science
 				teachersData.ahmadHafez,
-				teachersData.saleemKaroub,
 
 				// Ar
 				teachersData.yamanAbras,
