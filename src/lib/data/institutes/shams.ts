@@ -86,29 +86,33 @@ export const shamsInstitute = {
 				'الصف التاسع هو مرحلة مفصلية نحو الامتحانات الشاملة التي تحدد مسار الطلاب المستقبلي. في مدارس نخبة حلب، نقدم برامج تعليمية مبتكرة وموجهة تساعد الطلاب على التفوق في الامتحانات الرسمية. نضمن بيئة تعليمية محفزة وداعمة تجعل من التفوق الخيار الوحيد أمامهم.',
 			test: ninthTest,
 			teachers: [
-				// math
+				// Math
 				teachersData.MohammadSannon,
 				teachersData.ferasAlsayyedOmar,
 
-				// py chem
+				// Phy + Chem
 				teachersData.mehdiBasteka,
 
-				// science
+				// Science
 				teachersData.ahmadHafez,
 
-				// Ar
+				// Arabic
 				teachersData.yamanAbras,
+				teachersData.safiKabbani,
 
-				// En
+				// English
 				teachersData.mohannadAshor,
-				// fr
+				teachersData.abdalwahabTaskya,
+
+				// French
 				teachersData.ammarKhdry,
 				teachersData.nihadSeno,
 
-				// t + j
+				// Technology + Journalism
 				teachersData.adeebZohor,
+				teachersData.mohammadNourAldeen,
 
-				// Rel
+				// Religion
 				teachersData.ihabGamal
 			],
 			imgs: [],
