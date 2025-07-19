@@ -12,12 +12,10 @@ type TeacherNames =
   | "kamelKadi"
   | "jamalSheikhDiab"
   | "abdalwahabTaskya"
-  | "salwaAboGalon"
   | "hazemGhnaimi"
   | "basharGamalAldeen"
   | "hussamDwick"
   | "alaaAttar"
-  | "safwanIdress"
   | "mohammadFarek"
   | "samerSleman"
   | "abdalazizZakaria"
@@ -35,7 +33,6 @@ type TeacherNames =
   | "ihabGamal"
   | "mohammadTabbakh"
   | "mohammadAmeenSeedo"
-  | "adeebAlsayed"
   | "mehdiBasteka"
   | "saleemKaroub"
   | "ahmadHafez"
@@ -51,9 +48,9 @@ type TeacherNames =
   | "mohannadAshor"
   | "salemGazeh"
   | "ferasAlsayyedOmar"
-  | "safiKabbani"
-  | "mjdNahlawy"
-  | "mohammadNourAldeen" | "wajeehDwidry" | "ismaelSafaia" | "mustafaRslan" | "sohaybSarmini" | "zakariaRajabBasha" | "baraaSreo" | "ahmadTwish" | "mohammadSarhan" | "mohammadTalalini" |
+  | "safiKabbani" 
+   | 'MohammadSannon'
+  | "mohammadNourAldeen" | "wajeehDwidry" | "ismaelSafaia" | "mustafaRslan" | "sohaybSarmini" | "baraaSreo" | "ahmadTwish" | "mohammadSarhan" | "mohammadTalalini" |
    "ahmadKarzon" | "mustafaAntakly" | "mustafaRaslan" | "FerasMgadmi" |
     "khaledAljasem"  | "mahmoudAlkhalaf" | "ahmadMutlaq" | "mohammadIssa";
 type TeachersData = { 
@@ -65,12 +62,10 @@ export const teachersData: TeachersData = {
   kamelKadi: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824564/register/images/teachers/kbavci2y2jqh6mdrbuku.jpg', subject: "العلوم", name: "كامل قاضي" },
   jamalSheikhDiab: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824558/register/images/teachers/fvrcrhqpxg5pmcx5xq6c.jpg', subject: 'الرياضيات', name: "جمال شيخ دياب" },
   abdalwahabTaskya: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824417/register/images/teachers/zei7k6meif9azbj5mxeh.jpg', subject: 'اللغة الإنجليزية', name: "عبد الوهاب تسقية" },
-  salwaAboGalon: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824632/register/images/teachers/vyibypahcmus07qhzfkx.jpg', subject: 'العلوم', name: "سلوى أبو غالون" },
   hazemGhnaimi: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824584/register/images/teachers/pnn4m5zsli651fahgjpv.jpg', subject: 'الكيمياء', name: "حازم غنايمي" },
   basharGamalAldeen: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824535/register/images/teachers/cxsuwdhhd8ouqo69lsgv.jpg', subject: 'اللغة الإنجليزية', name: "بشار جمال الدين" },
   hussamDwick: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824583/register/images/teachers/jljcvxeuh3yzzdx4j9ae.jpg', subject: 'اللغة العربية', name: "حسام دويك" },
   alaaAttar: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824503/register/images/teachers/jxmbprxmbwzlpuo6q95l.jpg', subject: 'اللغة الفرنسية', name: "علاء عطار" },
-  safwanIdress: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824635/register/images/teachers/tqren3s3z2bcp1o6eq9i.jpg', subject: 'الرياضيات', name: "صفوان إدريس" },
   mohammadFarek: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824621/register/images/teachers/uovk3ipj2mhncungctpc.jpg', subject: 'الرياضيات', name: "محمد فريق" },
   samerSleman: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824642/register/images/teachers/tw4sqrvqugesvemuw4vh.jpg', subject: 'الكيمياء', name: "سامر سليمان" },
   abdalazizZakaria: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824492/register/images/teachers/faqvwac3xye4hhnrulmo.jpg', subject: 'الرياضيات', name: "عبد العزيز زكريا" },
@@ -88,7 +83,6 @@ export const teachersData: TeachersData = {
   ihabGamal: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824576/register/images/teachers/crjqyyskld1ugh5ruczj.jpg', subject: 'التربية الدينية', name: "إيهاب جمال" },
   mohammadTabbakh: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739651829/register/images/teachers/oejpfagszs9nkey3uhmv.jpg', subject: 'الفيزياء', name: "محمد طبّاخ" },
   mohammadAmeenSeedo: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737881888/kt7eta9xg9xsa9coeskx_c_crop_h_650_a4nmyg.jpg', subject: 'الفيزياء', name: "محمد أمين سيدو" },
-  adeebAlsayed: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738747500/register/images/teachers/imksimrqcoazpdbfhyw2.jpg', subject: 'الرياضيات', name: "أديب السيد" },
   mehdiBasteka: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738747424/register/images/teachers/v9s5tvlxwcawc7z4ecyb.jpg', subject: 'الفيزياء و الكيمياء', name: "مهدي بصطيقة" },
   saleemKaroub: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739892156/register/images/teachers/ztphmuvfnpknqbvwa26z.jpg', subject: 'العلوم', name: "سليم خروب" },
   ahmadHafez: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824482/register/images/teachers/ggbmwafebvr6vq7rsqag.jpg', subject: 'العلوم', name: "أحمد حافظ" },
@@ -105,13 +99,11 @@ export const teachersData: TeachersData = {
   salemGazeh: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1737881890/cj6lciiymxf0sjlpefup_c_crop_h_1000_wnkweg.jpg', subject: 'اللغة الإنجليزية', name: "سالم جازة" },
   ferasAlsayyedOmar: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824576/register/images/teachers/cqoqb4c7s0hizi5ibkz0.jpg', subject: 'الرياضيات', name: "فراس السيد عمر" },
   safiKabbani: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739002088/register/images/teachers/tgo0fcac7pyn8axxqrn8.jpg', subject: 'اللغة العربية', name: "صافي قباني" },
-  mjdNahlawy: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739002089/register/images/teachers/ppclecceejtkue3suagc.jpg', subject: 'اللغة الفرنسية', name: "مجد نحلاوي" },
   mohammadNourAldeen: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739651901/register/images/teachers/yv3c1gxiwanycw1agzp4.jpg', subject: 'تاريخ و جغرافيا', name: "محمد نور الدين" },
   wajeehDwidry: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739003086/register/images/teachers/bsqopzo9heauwwilbx1i.jpg', subject: 'اللغة الإنجليزية', name: 'وجيه دويدري' },
   ismaelSafaia: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824632/register/images/teachers/rwp0xegdanbmuqe6xahg.jpg', subject: 'اللغة الفرنسية', name: 'إسماعيل  صفايا' },
   mustafaRslan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744162/register/images/teachers/wo73f05qpjaphclqpnsz.png', subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
   sohaybSarmini: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738744242/register/images/teachers/fcit4ayz7ejjtkauj94t.jpg', subject: 'الكيمياء', name: 'صهيب سرميني' },
-  zakariaRajabBasha: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739650916/register/images/teachers/dtswsw33otsfqcro8nu2.jpg', subject: 'العلوم', name: 'زكريا رجب باشا' },
   baraaSreo: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824509/register/images/teachers/phbyeby7eoddsbswxys3.jpg', subject: 'اللغة العربية', name: 'براء سريو' },
 
 
@@ -129,7 +121,7 @@ export const teachersData: TeachersData = {
   mustafaAntakly: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'مصطفى انطكلي' },
   mustafaRaslan: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'مصطفى رسلان' },
   FerasMgadmi: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'اللغة الفرنسية', name: 'فراس مجدمي' },
-
+  MohammadSannon: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الرياضيات', name: 'محمد سنون' },
   mohammadIssa: { img: 'https://res.cloudinary.com/dgive1g2g/image/upload/v1748089749/unknown_geyhqr.png', subject: 'الوطنية', name: 'محمد العيسى' },
 };
 

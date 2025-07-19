@@ -27,7 +27,6 @@ export const gelAlshahbaaInstitute = {
       imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737827131/register/images/institutes/gen-alshahba/12/fjsdofd1x8dmtnnv70ob.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738745155/register/images/institutes/gen-alshahba/12/s9hrrtwq6p7parhd2aij.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824203/register/images/institutes/gen-alshahba/12/y9zgrnyll8wgp5of1rwh.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824210/register/images/institutes/gen-alshahba/12/gpjeo0qeawrv164jrrmi.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1738745153/register/images/institutes/gen-alshahba/12/ldrjpqdwxnyq2kbewuho.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824205/register/images/institutes/gen-alshahba/12/axefrgsw2avpazgvlcey.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646320/register/images/institutes/gen-alshahba/12/ayao116rdud0jxojwg44.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646822/register/images/institutes/gen-alshahba/12/awd4qfnx19rldrqodfsi.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/v1739646821/register/images/institutes/gen-alshahba/12/xtci0drilm2fjcufwyhd.jpg'],
       teachers: [
         teachersData.jamalSheikhDiab,
-        teachersData.safwanIdress,
         teachersData.abdalazizZakaria,
         teachersData.anasDrgham,
         teachersData.khaledAljasem,
@@ -56,7 +55,6 @@ export const gelAlshahbaaInstitute = {
         teachersData.kamelKadi,
         teachersData.ahmadOthman,
         teachersData.othmanAlMohammad,
-        teachersData.zakariaRajabBasha,
 
         teachersData.ramezAlSaeed,
         teachersData.hussamDwick,

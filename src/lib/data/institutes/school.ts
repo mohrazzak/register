@@ -30,7 +30,6 @@ export const schoolInstitute: Institute = {
       imgs: ['https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824310/register/images/institutes/school/12/delrvqbsfdluhbgolwny.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824297/register/images/institutes/school/12/z66nhczo5j2vnaf6l5bt.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824284/register/images/institutes/school/12/tneenf1mzdphx7x5vuwf.jpg', 'https://res.cloudinary.com/dgive1g2g/image/upload/w_600/q_auto:best/v1737824287/register/images/institutes/school/12/ff8jyb9w5pdpztynwyw8.jpg'],
       teachers: [
         teachersData.jamalSheikhDiab,
-        teachersData.safwanIdress,
         teachersData.abdalazizZakaria,
         teachersData.anasDrgham,
         teachersData.khaledAljasem,
@@ -59,7 +58,6 @@ export const schoolInstitute: Institute = {
         teachersData.kamelKadi,
         teachersData.ahmadOthman,
         teachersData.othmanAlMohammad,
-        teachersData.zakariaRajabBasha,
 
         teachersData.ramezAlSaeed,
         teachersData.hussamDwick,
@@ -127,7 +125,7 @@ export const schoolInstitute: Institute = {
 
 
         // Math
-        teachersData.adeebAlsayed,
+        teachersData.MohammadSannon,
         teachersData.ferasAlsayyedOmar,
 
         // Phy + Chem
@@ -135,7 +133,6 @@ export const schoolInstitute: Institute = {
 
 
         // Science
-        teachersData.salwaAboGalon,
         teachersData.ahmadHafez,
 
 
@@ -150,7 +147,6 @@ export const schoolInstitute: Institute = {
         // FR
         teachersData.ammarKhdry,
         teachersData.nihadSeno,
-        teachersData.mjdNahlawy,
 
         // T + J
         teachersData.adeebZohor,
